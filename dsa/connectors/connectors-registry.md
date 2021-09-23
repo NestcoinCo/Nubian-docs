@@ -20,8 +20,6 @@ event LogConnectorAdded(string indexed connectorName, address indexed connector)
 
 Emitted anytime a new connector is added with [`addConnector`](connectors-registry.md#addconnectors).
 
-
-
 ### LogConnectorUpdated
 
 ```text

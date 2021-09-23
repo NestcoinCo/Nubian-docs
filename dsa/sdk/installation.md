@@ -16,7 +16,7 @@ For browsers, via jsDelivr CDN:
 <script src="https://cdn.jsdelivr.net/npm/nubian-dsa-connect@latest/dist/index.bundle.js"></script>
 ```
 
-### Usage
+## Usage
 
 To enable web3 calls via SDK, instantiate [web3 library](https://github.com/ChainSafe/web3.js#installation)
 
@@ -51,6 +51,4 @@ const dsa = new DSA({
   privateKey: PRIVATE_KEY,
 })
 ```
-
-## 
 

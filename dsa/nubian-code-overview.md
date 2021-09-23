@@ -8,8 +8,8 @@ description: >-
 
 The Nubian Codebase is hosted on Github we've got four main repositories that hold most of our code.
 
-**nubian-dsa-connect**: Holds the code for the SDK. The SDK helps you interact with the Nubian ecosystem using just Javascript.   
-[Code](https://github.com/Open-Currency-Collective/nubian-dsa-connect)   
+**nubian-dsa-connect**: Holds the code for the SDK. The SDK helps you interact with the Nubian ecosystem using just Javascript.  
+[Code](https://github.com/Open-Currency-Collective/nubian-dsa-connect)  
 [Documentation](sdk/)
 
 **nubian-frontend**: Holds all the code concerning the Nubian user interface. It is what you see when you launch the Nubian application.  
@@ -21,6 +21,5 @@ The Nubian Codebase is hosted on Github we've got four main repositories that ho
 
 **nubian-dsa-connectors**: Contains all the code of all existing connectors. Smart accounts use them to interact with DeFi protocols.  
 [Code](https://github.com/Open-Currency-Collective/Nubian-dsa-connectors)  
-[Documentation](connectors/)  
-
+[Documentation](connectors/)
 

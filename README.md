@@ -4,9 +4,9 @@ description: Here's all you need to get started using Nubian.
 
 # Nubian Introduction
 
-Nubian simplifies Decentralized Finance \(DeFi\) for the average crypto user. All the basic DeFi activities including swapping, lending, borrowing, liquidity provision, staking and yield farming are made easily accessible on a simple user interface. 
+Nubian simplifies Decentralized Finance \(DeFi\) for the average crypto user. All the basic DeFi activities including swapping, lending, borrowing, liquidity provision, staking and yield farming are made easily accessible on a simple user interface.
 
-Nubian makes interactions with DeFi no different from interacting with a simple bank application. It leverages different platforms in the background to come up with a simple and easy to use interface for everything DeFi. Newbies and degens alike can monitor their portfolio and earn with ease, we handle the difficult parts and make the DeFi experience sweet☺. 
+Nubian makes interactions with DeFi no different from interacting with a simple bank application. It leverages different platforms in the background to come up with a simple and easy to use interface for everything DeFi. Newbies and degens alike can monitor their portfolio and earn with ease, we handle the difficult parts and make the DeFi experience sweet☺.
 
 To make all these and more possible you have to create a smart contract account called a **DeFi Smart Account \(DSA\)**. The smart account is used to manage all your investments it's like a bank account but far better because you have absolute control of it. It protects your crypto assets and at the same time gives you limitless access to the DeFi ecosystem.
 
