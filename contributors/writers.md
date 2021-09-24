@@ -2,9 +2,9 @@
 description: Contribute to the Nubian Documentation
 ---
 
-# Writers
+# Content/Technical Writers
 
-As you should already know our documentation is hosted on Gitbook. To contribute you will have to have an account on Gitbook and be quite conversant. No special skill is needed to use Gitbook it's very simple and intuitive. Here's a guide on how to get started contributing.
+As you already know our documentation is hosted on Gitbook. To contribute you will have to have an account on Gitbook. No special skill is needed to use Gitbook it's very simple and intuitive. We encourage you to make only necessary changes, you can contribute by removing repetitions, correcting grammar or rewriting whole paragraphs. Here's a guide on how to get started contributing it shows you how to set up Gitbook for your changes. Optionally, if you are conversant with markdown, you can simply click on the "Edit on Github" button on the right menu and do your thing.
 
 #### 1. Fork the Nubian-docs repository
 
@@ -24,7 +24,7 @@ Gitbook spaces are places where you can organise related documents. When you sig
 
 #### **4. Add Github to your space\|**
 
-Add Github to your space to see the already existing documentation and modify it directly from Gitbook. On the sidebar menu you will see "integrations", select it and select the "Github" integration option. You will be given an option to choose between just public or all repositories on Github account to show so you can select one. Select the repository you forked from the dropdown menu and move on to step 5.
+Add Github to your space to see the already existing documentation and modify it directly from Gitbook. On the sidebar menu, you will see "integrations", select it and select the "Github" integration option. You will be given an option to choose between just public or all repositories on the Github account to show so you can select one. Select the repository you forked from the dropdown menu and move on to step 5.
 
 #### 5. Select the branch.
 
@@ -39,7 +39,7 @@ Pick the "select branches to sync" option and enter main as the branch to sync f
 
 #### 6. Set main branch as the main variant.
 
-Gitbook uses variants for versioning and automatically creates a main variant for your Github integration. Change the current integration from 1.0.0 to main from the top left menu on the docs itself to see the docs on your forked repository.
+Gitbook uses variants for versioning and automatically creates the main variant for your Github integration. Change the current integration from 1.0.0 to main from the top left menu on the docs itself to see the docs on your forked repository.
 
 ![Change main variant to main.](../.gitbook/assets/nubian-set-main-as-main-variant.png)
 
@@ -49,7 +49,7 @@ Save and merge your changes on Gitbook to save them on Github.
 
 #### 8. Make a pull request
 
-When you are done with applying your changes create a pull request with a descriptive title and add the links to the changes you made in your gitbook instance. To get the links, check the Share menu item on the Gitbook side menu.
+When you are done with applying your changes create a pull request with a descriptive title and add the links to the changes you made in your Gitbook instance. To get the links, check the Share menu item on the Gitbook side menu.
 
 We can't wait for your pull requests. Happy Writing 🎉. 
 

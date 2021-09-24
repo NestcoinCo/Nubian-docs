@@ -34,6 +34,8 @@
 
 ## Contributors
 
-* [Developers](contributors/developers.md)
-* [Writers](contributors/writers.md)
+* [Developers](contributors/developers/README.md)
+  * [Frontend](contributors/developers/frontend.md)
+  * [Connectors](contributors/developers/connectors.md)
+* [Content/Technical Writers](contributors/writers.md)
 
