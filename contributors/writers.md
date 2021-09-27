@@ -4,7 +4,7 @@ description: Contribute to the Nubian Documentation
 
 # Content/Technical Writers
 
-As you already know our documentation is hosted on Gitbook. To contribute you will have to have an account on Gitbook. No special skill is needed to use Gitbook it's very simple and intuitive. We encourage you to make only necessary changes, you can contribute by removing repetitions, correcting grammar or rewriting whole paragraphs. Here's a guide on how to get started contributing it shows you how to set up Gitbook for your changes. Optionally, if you are conversant with markdown, you can simply click on the "Edit on Github" button on the right menu and do your thing.
+As you already know our documentation is hosted on Gitbook. To contribute you can simply select the "Edit on Github" button on the right menu and do your thing although this would need Markdown knowledge. You can also contribute directly on Gitbook, you will have to have an account on Gitbook. No special skill is needed to use Gitbook it's very simple and intuitive. We encourage you to make only necessary changes, you can contribute by removing repetitions, correcting grammar or rewriting whole paragraphs. Here's a guide on how to get started contributing it shows you how to set up Gitbook for your changes
 
 #### 1. Fork the Nubian-docs repository
 
