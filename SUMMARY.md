@@ -2,6 +2,11 @@
 
 * [Nubian Introduction](README.md)
 
+## FAQs
+
+* [General FAQ](faqs/general-faq.md)
+* [DeFi Smart Accounts \(DSAs\)](faqs/dsa.md)
+
 ## DEVELOPERS <a id="dsa"></a>
 
 * [How Nubian Works](dsa/how-nubian-works.md)
