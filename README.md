@@ -8,7 +8,7 @@ Nubian simplifies Decentralized Finance \(DeFi\) for the average crypto user. Al
 
 Nubian makes interactions with DeFi no different from interacting with a simple bank application. It leverages different platforms in the background to come up with a simple and easy to use interface for everything DeFi. Newbies and degens alike can monitor their portfolio and earn with ease, we handle the difficult parts and make the DeFi experience sweet☺.
 
-**DeFi Smart Accounts \(DSAs\)** are smart contracts that act as an interface between your wallet and the DeFi ecosystem. These smart accounts hold your funds, manage them for you and give you limitless access to the full DeFi ecosystem. Nubian uses DSAs to give you a rich but yet simple DeFi experience. You are in complete control of these accounts and the funds within, no other person including the Nubian team has access to your funds.
+**DeFi Smart Accounts \(DSAs\)** are smart contracts that act as a layer between your wallet and the DeFi ecosystem. These smart accounts hold your funds, manage them for you and give you limitless access to the full DeFi ecosystem. Nubian uses DSAs to give you a rich but yet simple DeFi experience. You are in complete control of these accounts and the funds within, no other person including the Nubian team has access to your funds.
 
 ## Products
 

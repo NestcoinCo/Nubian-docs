@@ -28,5 +28,13 @@ The balance that shows up on your dashboard is the value of the funds you have i
 
 There's no limit to the number of DSAs you can have.
 
+### Where do I find the assets in my DSA?
+
+You can see all the assets in your DSA on your dashboard tab.
+
+### Where do I find all my DSAs?
+
+When you connect your wallet you can see a list of all your DSAs when you click on the current DSA on the bottom left on the sidebar menu.
+
 
 

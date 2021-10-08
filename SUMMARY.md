@@ -4,8 +4,14 @@
 
 ## FAQs
 
-* [General FAQ](faqs/general-faq.md)
+* [General](faqs/general-faq.md)
 * [DeFi Smart Accounts \(DSAs\)](faqs/dsa.md)
+* [Swap](faqs/swap.md)
+* [Lend](faqs/lend.md)
+* [Borrow](faqs/borrow.md)
+* [Stake](faqs/stake.md)
+* [Liquidity Provision](faqs/liquidity-provision.md)
+* [Farming](faqs/farming.md)
 
 ## DEVELOPERS <a id="dsa"></a>
 
