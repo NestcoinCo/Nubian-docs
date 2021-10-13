@@ -1,6 +1,12 @@
 # Table of contents
 
 * [Nubian Introduction](README.md)
+* [Page 1](page-1.md)
+
+## User Guide
+
+* [Getting Started](user-guide/getting-started.md)
+* [Wallets](user-guide/wallets.md)
 
 ## FAQs
 

@@ -14,7 +14,7 @@ To swap your tokens they have to be in the selected DeFi Smart Account (DSA). Ch
 
 ### What is slippage?
 
-The slippage sets the minimum amount of tokens you will accept for the swap. Setting the slippage with percentage effectively says you won't accept more than that percentage reduction in the token amount you get from the swap when the transaction is completed. Setting the slippage of a swap you are meant 2BNB to 2% says you do not want less than 1.96BNB (2 - (2% \* 2BNB)). The transaction fails if you get below 1.96BNB.
+The slippage sets the minimum amount of tokens you will accept for the swap. Setting the slippage with percentage effectively says you won't accept more than that percentage reduction in the token amount you get from the swap when the transaction is completed. Setting the slippage of a swap you are meant to get 2BNB to 2% says you do not want less than 1.96BNB (2 - (2% \* 2BNB)). The transaction fails if you get below 1.96BNB.
 
 ### Where do I set slippage?
 
