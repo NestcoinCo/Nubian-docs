@@ -42,5 +42,3 @@ Few things to consider while writing the connector:
 * Use `getUint()` \(declared in `Stores`\) for getting value that saved from previous spell
 * Use `setUint()` \(declared in `Stores`\) for setting value to save for the future spell
 
-
-

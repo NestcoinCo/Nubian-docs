@@ -12,7 +12,7 @@ To get started using the SDK, you must do one or all of the following:
 * Fetch Smart Accounts - `getAccounts()`
 * Set Smart Account - `setInstance()`
 
-### build\(\)
+## build\(\)
 
 This creates a uniquely numbered Smart Account which acts as a proxy to interact with verified DeFi protocols and each DSA has a unique ethereum address. If the account is already created, you can use the `setInstance` method to activate a paricular DSA account and start casting spells.
 
@@ -36,7 +36,7 @@ dsa.build({
 
 > View this [Gist](https://gist.github.com/nonseodion/39f9c7a46b122131e8cec95ad4350cf0) for estimation of gas price
 
-#### Parameters
+### Parameters
 
 | **Parameter** | **Type** | **Description** | **Default** |
 | :--- | :--- | :--- | :--- |
@@ -47,11 +47,11 @@ dsa.build({
 | nonce | `string/number` | Nonce of your sender account. Mostly used in Node implementation to send a transaction with a particular nonce either to override unconfirmed transaction or some other purpose. | Used only in Node. |
 | version | `string/number` | The DSA version to create. | 2 |
 
-#### Returns
+### Returns
 
 This function returns a promise that resolves to the transaction receipt when the transaction is mined.
 
-### getAccounts\(\)
+## getAccounts\(\)
 
 Fetch all the accounts owned by an ethereum address by calling `getAccounts()`.
 
@@ -63,13 +63,13 @@ await dsa.getAccounts(address)
 dsa.getAccounts(address).then(console.log)
 ```
 
-#### Parameter
+### Parameter
 
 | **Parameter** | **Type** | **Description** |
 | :--- | :--- | :--- |
 | address | `address` | An ethereum address. |
 
-#### Returns
+### Returns
 
 The method returns a Promise that resolves to an array of objects with all the DSA accounts where `address` is authorised. Here's how it looks:
 
@@ -84,7 +84,7 @@ The method returns a Promise that resolves to an array of objects with all the D
 ]
 ```
 
-### setInstance\(\)
+## setInstance\(\)
 
 Be sure to configure global values by calling `setInstance()`. You can get the id of the DSA by calling `getAccounts()`. The configured account will be used for all subsequent calls.
 
@@ -92,13 +92,13 @@ Be sure to configure global values by calling `setInstance()`. You can get the i
 dsa.setInstance(dsaId) // DSA ID
 ```
 
-#### Parameter
+### Parameter
 
 | **Parameter** | **Type** | **Description** |
 | :--- | :--- | :--- |
 | dsaId | `Number` | DSA ID to be used for casting spells. |
 
-#### Returns
+### Returns
 
 This method returns a promise that resolves to the newly set instance. Here's how it looks:
 
