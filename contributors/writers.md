@@ -14,13 +14,13 @@ You should already have an account on [Github](https://github.com). Fork the [Nu
 
 If you don't have an account already signup on Gitbook using your Github account. Just go to [Gitbook](https://gitbook.com) and click on the "Signup with Github" button to create an account. Do use the account you use to fork the Nubian-docs.
 
-![Sign Up With Github on Gitbook](<../.gitbook/assets/Nubian- signup with Github.png>)
+![Sign Up With Github on Gitbook](../.gitbook/assets/nubian-signup-with-github.png)
 
 #### 3. Create a space on Gitbook
 
 Gitbook spaces are places where you can organise related documents. When you sign in you can easily create a space with the "+ Create a new space" button. Give the space whatever name you choose and make it public.
 
-![](<../.gitbook/assets/Nubian-Create a space (1).png>)
+![](../.gitbook/assets/nubian-create-a-space.png)
 
 #### **4. Add Github to your space|**
 
@@ -31,17 +31,17 @@ Add Github to your space to see the already existing documentation and modify it
 Pick the "select branches to sync" option and enter main as the branch to sync from and choose the first sync to come from Github. Follow the images below.\
 
 
-![Select the option to sync branches](<../.gitbook/assets/Nubian-Select branch (1).png>)
+![Select the option to sync branches](../.gitbook/assets/nubian-select-branch.png)
 
-![Enter "main" as the branch you want to sync](<../.gitbook/assets/Nubian-Enter Main (1).png>)
+![Enter "main" as the branch you want to sync](../.gitbook/assets/nubian-enter-main.png)
 
-![Select the first sync to come from Github.](<../.gitbook/assets/Nubian-Gitbook to  Github (1).png>)
+![Select the first sync to come from Github.](<../.gitbook/assets/nubian-gitbook-to-github (1).png>)
 
 #### 6. Set main branch as the main variant.
 
 Gitbook uses variants for versioning and automatically creates the main variant for your Github integration. Change the current integration from 1.0.0 to main from the top left menu on the docs itself to see the docs on your forked repository.
 
-![Change main variant to main.](<../.gitbook/assets/Nubian-Set main as main variant.png>)
+![Change main variant to main.](../.gitbook/assets/nubian-set-main-as-main-variant.png)
 
 #### 7. Save and merge your changes
 

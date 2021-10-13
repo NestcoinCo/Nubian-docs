@@ -1,8 +1,8 @@
 ---
-description: Common questions about staking tokens on Nubian.
+description: Frequently questions about staking tokens on Nubian.
 ---
 
-# Stake
+# 💰 Stake
 
 ### What is staking?
 
@@ -19,8 +19,6 @@ You get more NBN tokens and it is dependent on the amount of time you stake.
 ### Does Nubian charge a fee for staking?
 
 Nubian finance does not charge any fee for staking.
-
-
 
 
 

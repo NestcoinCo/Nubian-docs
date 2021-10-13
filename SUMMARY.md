@@ -5,19 +5,19 @@
 ## FAQs
 
 * [General](faqs/general-faq.md)
-* [DeFi Smart Accounts \(DSAs\)](faqs/dsa.md)
-* [Swap](faqs/swap.md)
-* [Lend](faqs/lend.md)
-* [Borrow](faqs/borrow.md)
-* [Stake](faqs/stake.md)
-* [Liquidity Provision](faqs/liquidity-provision.md)
-* [Farming](faqs/farming.md)
+* [DeFi Smart Accounts (DSAs)](faqs/dsa.md)
+* [🔄 Swap](faqs/swap.md)
+* [💸 Lend](faqs/lend.md)
+* [🤲 Borrow](faqs/borrow.md)
+* [💰 Stake](faqs/stake.md)
+* [🌊 Liquidity Provision](faqs/liquidity-provision.md)
+* [🚜 Farming](faqs/farming.md)
 
-## DEVELOPERS <a id="dsa"></a>
+## DEVELOPERS <a href="dsa" id="dsa"></a>
 
 * [How Nubian Works](dsa/how-nubian-works.md)
 * [Nubian Codebase Overview](dsa/nubian-code-overview.md)
-* [DeFi Smart Account \(DSA\)](dsa/dsa-introduction/README.md)
+* [DeFi Smart Account (DSA)](dsa/dsa-introduction/README.md)
   * [DSA Contracts](dsa/dsa-introduction/dsa-contracts.md)
   * [Core](dsa/dsa-introduction/core/README.md)
     * [NbnAccountV2](dsa/dsa-introduction/core/nbnaccountv2.md)
@@ -48,4 +48,3 @@
   * [Frontend](contributors/developers/frontend.md)
   * [Connectors](contributors/developers/connectors.md)
 * [Content/Technical Writers](contributors/writers.md)
-
