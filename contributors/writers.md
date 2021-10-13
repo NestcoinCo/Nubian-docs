@@ -14,34 +14,34 @@ You should already have an account on [Github](https://github.com). Fork the [Nu
 
 If you don't have an account already signup on Gitbook using your Github account. Just go to [Gitbook](https://gitbook.com) and click on the "Signup with Github" button to create an account. Do use the account you use to fork the Nubian-docs.
 
-![Sign Up With Github on Gitbook](../.gitbook/assets/nubian-signup-with-github.png)
+![Sign Up With Github on Gitbook](<../.gitbook/assets/Nubian- signup with Github.png>)
 
 #### 3. Create a space on Gitbook
 
 Gitbook spaces are places where you can organise related documents. When you sign in you can easily create a space with the "+ Create a new space" button. Give the space whatever name you choose and make it public.
 
-![](../.gitbook/assets/nubian-create-a-space.png)
+![](<../.gitbook/assets/Nubian-Create a space (1).png>)
 
-#### **4. Add Github to your space\|**
+#### **4. Add Github to your space|**
 
 Add Github to your space to see the already existing documentation and modify it directly from Gitbook. On the sidebar menu, you will see "integrations", select it and select the "Github" integration option. You will be given an option to choose between just public or all repositories on the Github account to show so you can select one. Select the repository you forked from the dropdown menu and move on to step 5.
 
 #### 5. Select the branch.
 
-Pick the "select branches to sync" option and enter main as the branch to sync from and choose the first sync to come from Github. Follow the images below.  
+Pick the "select branches to sync" option and enter main as the branch to sync from and choose the first sync to come from Github. Follow the images below.\
 
 
-![Select the option to sync branches](../.gitbook/assets/nubian-select-branch.png)
+![Select the option to sync branches](<../.gitbook/assets/Nubian-Select branch (1).png>)
 
-![Enter &quot;main&quot; as the branch you want to sync](../.gitbook/assets/nubian-enter-main.png)
+![Enter "main" as the branch you want to sync](<../.gitbook/assets/Nubian-Enter Main (1).png>)
 
-![Select the first sync to come from Github.](../.gitbook/assets/nubian-gitbook-to-github%20%281%29.png)
+![Select the first sync to come from Github.](<../.gitbook/assets/Nubian-Gitbook to  Github (1).png>)
 
 #### 6. Set main branch as the main variant.
 
 Gitbook uses variants for versioning and automatically creates the main variant for your Github integration. Change the current integration from 1.0.0 to main from the top left menu on the docs itself to see the docs on your forked repository.
 
-![Change main variant to main.](../.gitbook/assets/nubian-set-main-as-main-variant.png)
+![Change main variant to main.](<../.gitbook/assets/Nubian-Set main as main variant.png>)
 
 #### 7. Save and merge your changes
 
@@ -52,8 +52,6 @@ Save and merge your changes on Gitbook to save them on Github.
 When you are done with applying your changes create a pull request with a descriptive title and add the links to the changes you made in your Gitbook instance. To get the links, check the Share menu item on the Gitbook side menu.
 
 We can't wait for your pull requests. Happy Writing 🎉. 
-
-
 
 
 
