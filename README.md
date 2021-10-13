@@ -4,11 +4,11 @@ description: Here's all you need to get started using Nubian.
 
 # Nubian Introduction
 
-Nubian simplifies Decentralized Finance \(DeFi\) for the average crypto user. All the basic DeFi activities including swapping, lending, borrowing, liquidity provision, staking and yield farming are made easily accessible on a simple user interface.
+Nubian simplifies Decentralized Finance (DeFi) for the average crypto user. All the basic DeFi activities including swapping, lending, borrowing, liquidity provision, staking and yield farming are made easily accessible on a simple user interface.
 
-Nubian makes interactions with DeFi no different from interacting with a simple bank application. It leverages different platforms in the background to come up with a simple and easy to use interface for everything DeFi. Newbies and degens alike can monitor their portfolio and earn with ease, we handle the difficult parts and make the DeFi experience sweet☺.
+Nubian makes interactions with DeFi no different from interacting with a simple bank application. It leverages different platforms in the background to come up with a simple and easy to use interface for everything DeFi. Newbies and degens alike can monitor their portfolio and earn with ease, we handle the difficult parts and make the DeFi experience sweet:relaxed:.
 
-To make all these and more possible you have to create a smart contract account called a **DeFi Smart Account \(DSA\)**. The smart account is used to manage all your investments it's like a bank account but far better because you have absolute control of it. It protects your crypto assets and at the same time gives you limitless access to the DeFi ecosystem.
+**DeFi Smart Accounts (DSAs) **are smart contracts that act as a layer between your wallet and the DeFi ecosystem. These smart accounts hold your funds, manage them for you and give you limitless access to the full DeFi ecosystem. Nubian uses DSAs to give you a rich but yet simple DeFi experience. You are in complete control of these accounts and the funds within, no other person including the Nubian team has access to your funds.
 
 ## Products
 
@@ -26,13 +26,12 @@ Want more of a token? You can borrow different amounts of a token using another 
 
 ### 💰 Stake
 
-The staking feature allows you to stake the Nubian tokens \(NBN\) and earn interest in Nubian tokens.
+The staking feature allows you to stake the Nubian tokens (NBN) and earn interest in Nubian tokens.
 
 ### 🌊 Liquidity Provision
 
-Earn interest in swap fees by providing liquidity to any of the trading pairs on any Automated Market Maker \(AMM\) we support. This allows you to earn a part of the swap fee anytime someone makes a swap using the pair you provided liquidity. Pancake swap is a typical example of an AMM.
+Earn interest in swap fees by providing liquidity to any of the trading pairs on any Automated Market Maker (AMM) we support. This allows you to earn a part of the swap fee anytime someone makes a swap using the pair you provided liquidity. Pancake swap is a typical example of an AMM.
 
 ### 🚜 Yield Farm
 
-Yield farming allows you to earn even more interest after [providing liquidity](./#liquidity-provision) to a trading pair on any AMM. When you provide liquidity, you are given liquidity provider \(LP\) tokens to track the amount of liquidity you provided. These LP tokens can be used to earn more rewards by staking them in a farm \(a pool for staking LP tokens to earn rewards\). You are given an interest in another token. The interest can also be compounded.
-
+Yield farming allows you to earn even more interest after [providing liquidity](./#liquidity-provision) to a trading pair on any AMM. When you provide liquidity, you are given liquidity provider (LP) tokens to track the amount of liquidity you provided. These LP tokens can be used to earn more rewards by staking them in a farm (a pool for staking LP tokens to earn rewards). You are given an interest in another token. The interest can also be compounded.
