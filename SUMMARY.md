@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Nubian Introduction](README.md)
-* [Page 1](page-1.md)
 
 ## User Guide
 
