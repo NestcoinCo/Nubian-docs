@@ -12,10 +12,15 @@ Let's begin our short journey to financial freedom.
 
 1.  **Choose a Wallet**
 
-    The first thing you'd need is a wallet. In the same way, you'd pick a bank to patronise, you have to pick a wallet to use in holding your cryptocurrency and interacting with Nubian. Check our [wallets](get-a-wallet.md) guide to know the right wallet you need to get started. 
+    The first thing you'd need is a wallet. In the same way, you'd pick a bank to patronise, you have to pick a wallet to use in holding your cryptocurrency and interacting with Nubian. Check our [wallets](wallets.md) guide to know the right wallet you need to get started. 
 2.  **Fund your wallet**
 
-    You need to have BNB in your wallet to start interacting with the Nubian dapp. Let's have a look at the different options you can use to [fund your wallet](fund-your-wallet..md).
-3.  **Start using Nubian**
+    You need to have BNB in your wallet to start interacting with the Nubian dapp. Let's have a look at the different options you can use to [fund your wallet](fund-your-wallet.md) before we start making use of the Nubian decentralized application (dapp).
+3.  **Start Using Nubian**
 
-    ****
+    After funding your wallet, you are ready to start using Nubian. Navigate to Nubian.finance on your desktop browser if you are using a wallet extension like Metamask or on your dapp browser.
+4.  **Connect your Wallet**
+
+    First thing you need
+
+****

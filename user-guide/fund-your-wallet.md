@@ -2,14 +2,14 @@
 description: It's time to get rid of cash.
 ---
 
-# Fund your Wallet.
+# Fund your Wallet
 
 After creating a new wallet, it's empty. You have to have cryptocurrency in it to start using it. Nubian Finance is built on the Binance Smart Chain (BSC) and BSC requires BNB, it's native cryptocurrency to be paid as a transaction fee. This means you need to have BNB before you can start using Nubian. 
 
 To receive cryptocurrency you are required to share your wallet address or a QR code representation of it. You will find it under the receive tab/button on most wallets. It's synonymous with a bank account number and has to be given to the sender. Below is a wallet address and QR code on Trust wallet.
 
 {% hint style="info" %}
-The BNB in this context refers to BNB on the Binance Smart Chain BNB(BEP 20) and not BNB (BEP 2) on the Binance Chain. Two ways to ensure you aren't buying BNB (BEP 2) are:
+The BNB in this context refers to BNB on the Binance Smart Chain BNB(BEP 20) and not BNB (BEP 2) on the Binance Chain. Two ways to ensure you aren't receivingyi BNB (BEP 2) are:
 
 * The address must begin with **0x** e.g 0x2D4C407BBe49438ED859fe965b140dcF1aaB71a9 and not **bnb **e.g bnb1z35wusfv8twfele77vddclka9z84ugywug48gn
 * You won't be asked for a **memo, **when sending the token to your address.

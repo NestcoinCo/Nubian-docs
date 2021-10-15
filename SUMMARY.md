@@ -5,19 +5,24 @@
 ## User Guide
 
 * [Getting Started](user-guide/getting-started.md)
-* [Get a Wallet](user-guide/get-a-wallet.md)
-* [Fund your Wallet.](user-guide/fund-your-wallet..md)
+* [Get a Wallet](user-guide/wallets.md)
+* [Fund your Wallet](user-guide/fund-your-wallet.md)
 * [Connect to Nubian](user-guide/connect-to-nubian.md)
+* [Choose your Experience Level](user-guide/choose-your-experience-level.md)
+* [Deposit and Withdraw](user-guide/deposit-and-withdraw.md)
+* [Swap Your Tokens](user-guide/swap-your-tokens.md)
+* [Start Earning](user-guide/start-earning.md)
 
 ## FAQs
 
 * [General](faqs/general-faq.md)
 * [🔄 Swap](faqs/swap.md)
-* [💸 Lend](faqs/lend.md)
+* [🤑 Earn](faqs/earn/README.md)
+  * [💸 Lend](faqs/earn/lend.md)
+  * [💰 Stake](faqs/earn/stake.md)
+  * [🌊 Liquidity Provision](faqs/earn/liquidity-provision.md)
+  * [🚜 Farming](faqs/earn/farming.md)
 * [🤲 Borrow](faqs/borrow.md)
-* [💰 Stake](faqs/stake.md)
-* [🌊 Liquidity Provision](faqs/liquidity-provision.md)
-* [🚜 Farming](faqs/farming.md)
 
 ## DEVELOPERS <a href="dsa" id="dsa"></a>
 

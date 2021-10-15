@@ -1,14 +1,12 @@
 ---
-description: Here's all you need to get started using Nubian.
+description: Welcome to Nubian. Settle down and lets tell you what it's all about.
 ---
 
 # Nubian Introduction
 
-Nubian simplifies Decentralized Finance (DeFi) for the average crypto user. All the basic DeFi activities including swapping, lending, borrowing, liquidity provision, staking and yield farming are made easily accessible on a simple user interface.
+Nubian is a service that simplifies Decentralized Finance (DeFi) for the average crypto user. All the basic DeFi activities including swapping, lending, borrowing, liquidity provision, staking and yield farming are made easily accessible on a simple user interface.
 
 Nubian makes interactions with DeFi no different from interacting with a simple bank application. It leverages different platforms in the background to come up with a simple and easy to use interface for everything DeFi. Newbies and degens alike can monitor their portfolio and earn with ease, we handle the difficult parts and make the DeFi experience sweet:relaxed:.
-
-**DeFi Smart Accounts (DSAs) **are smart contracts that act as a layer between your wallet and the DeFi ecosystem. These smart accounts hold your funds, manage them for you and give you limitless access to the full DeFi ecosystem. Nubian uses DSAs to give you a rich but yet simple DeFi experience. You are in complete control of these accounts and the funds within, no other person including the Nubian team has access to your funds.
 
 ## Products
 
@@ -16,17 +14,15 @@ Nubian makes interactions with DeFi no different from interacting with a simple 
 
 Swaps are one of the most basic features of DeFi. You can swap your tokens on Nubian. Your swaps are routed through a decentralised exchange and you are given the token you desire. You are able to see the number of tokens you would get before the swap is initiated, the exchange rate and can select different percentages of your token balance to swap.
 
-### 💸 Lend
-
-Start earning interest on your tokens by lending them. You can lend any amount of tokens and withdraw them with interest at any time. The interest rates are very high compared to what the bank gives you for lending your money to their customers.
-
-### 🤲 Borrow
-
-Want more of a token? You can borrow different amounts of a token using another token as collateral. You earn interest for providing collateral and can borrow an amount dependent on the value of the collateral you have provided. You can pay back the borrowed tokens at any time and collect your collateral.
+## Earn
 
 ### 💰 Stake
 
 The staking feature allows you to stake the Nubian tokens (NBN) and earn interest in Nubian tokens.
+
+### 💸 Lend
+
+Start earning interest on your tokens by lending them. You can lend any amount of tokens and withdraw them with interest at any time. The interest rates are very high compared to what the bank gives you for lending your money to their customers.
 
 ### 🌊 Liquidity Provision
 
@@ -35,3 +31,7 @@ Earn interest in swap fees by providing liquidity to any of the trading pairs on
 ### 🚜 Yield Farm
 
 Yield farming allows you to earn even more interest after [providing liquidity](./#liquidity-provision) to a trading pair on any AMM. When you provide liquidity, you are given liquidity provider (LP) tokens to track the amount of liquidity you provided. These LP tokens can be used to earn more rewards by staking them in a farm (a pool for staking LP tokens to earn rewards). You are given an interest in another token. The interest can also be compounded.
+
+### 🤲 Borrow
+
+Want more of a token? You can borrow different amounts of a token using another token as collateral. You earn interest for providing collateral and can borrow an amount dependent on the value of the collateral you have provided. You can pay back the borrowed tokens at any time and collect your collateral.
