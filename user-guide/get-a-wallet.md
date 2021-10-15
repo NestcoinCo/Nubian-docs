@@ -2,15 +2,23 @@
 description: We'll tell you what a wallet is and the wallet you'll need to use Nubian.
 ---
 
-# Wallets
+# Get a Wallet
 
 A wallet is a software that holds the details you need to be able to send and receive cryptocurrency and make other transactions. It's just like your bank application only that it's under your complete control and does not help you store and spend US dollars, Naira or other forms of government money but cryptocurrencies. Popular examples of wallets are Trust wallet and Coinomi.
 
  To interact with Nubian Finance you need to have a DeFi wallet. A DeFi wallet does everything a normal wallet does and also enables you to interact with Decentralized Applications (Dapps).
 
-Wallets hold keys that enable you to spend your cryptocurrency. These keys include your private keys and a mnemonic seed phrase they are meant to be kept secret and known only by you. These keys are analogous to your credit/debit card pin you always want to keep private and are wary to enter on malicious websites.  If they get compromised, the attacker can spend your funds. Your wallet also has an address which is a group of characters typically beginning with '0x' that is used to receive funds. 
+Wallets hold keys that enable you to spend your cryptocurrency. These keys include your private keys and a mnemonic seed phrase (a sequence of 12 or 24 words) they are meant to be kept secret and known only by you. These keys are analogous to your credit/debit card pin you always want to keep private and are wary to enter on malicious websites.  If they get compromised, the attacker can spend your funds. Your wallet also has an address which is a group of characters typically beginning with '0x' that is used to receive funds. 
+
+{% hint style="danger" %}
+With great power comes great responsibility. The funds in your wallet are now under your complete control, make sure access to these funds are always kept safe and never made public or else **you will lose your funds.**
+{% endhint %}
 
 When you first open a new wallet you are shown your recovery phrase make sure to write it in a safe and secure place to allow you to restore your wallet or import it if your device gets somehow stolen or wiped.
+
+{% hint style="info" %}
+Don't forget to store your recovery phrase or private key somewhere safe, you can restore your wallet if you misplace it using your recovery phrase or private key.
+{% endhint %}
 
 There are multiple wallets for different platforms. Here are the wallets supported by Nubian Finance, categorised by platform.
 

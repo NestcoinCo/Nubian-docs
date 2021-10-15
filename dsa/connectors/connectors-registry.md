@@ -14,7 +14,7 @@ Connectors Registry is deployed on [mainnet](https://bscscan.com/address/0x94493
 
 ### LogConnectorAdded
 
-```text
+```
 event LogConnectorAdded(string indexed connectorName, address indexed connector);
 ```
 
@@ -22,7 +22,7 @@ Emitted anytime a new connector is added with [`addConnector`](connectors-regist
 
 ### LogConnectorUpdated
 
-```text
+```
 event LogConnectorUpdated(string indexed connectorName, address indexed oldConnector, address indexed newConnector);
 ```
 
@@ -30,7 +30,7 @@ Emitted anytime an existing connector is updated with [`updateConnector`](connec
 
 ### LogConnectorRemoved
 
-```text
+```
 event LogConnectorRemoved(string indexed connectorName, address indexed connector);
 ```
 
@@ -38,25 +38,25 @@ Emitted when an existing connector is removed with [`removeConnector`](connector
 
 ### LogController
 
-```text
+```
 event LogController(address indexed addr, bool indexed isChief);
 ```
 
-Emitted when a chief is enabled or disabled \(toggled\) with [`toggleChief`](connectors-registry.md#togglechief).
+Emitted when a chief is enabled or disabled (toggled) with [`toggleChief`](connectors-registry.md#togglechief).
 
 ## Read-only Methods
 
 ### NbnIndex
 
-```text
+```
 address public immutable nbnIndex;
 ```
 
-Returns the address of [NbnIndex](../dsa-introduction/registry/nbnindex.md).
+Returns the address of [NbnIndex](broken-reference).
 
 ### Chief
 
-```text
+```
 mapping(address => bool) public chief;
 ```
 
@@ -64,7 +64,7 @@ Returns a boolean indicating whether an address is a chief or not. A chief can a
 
 ### Connectors
 
-```text
+```
 mapping(string => address) public connectors;
 ```
 
@@ -74,7 +74,7 @@ Maps connector names to their addresses and returns an address when given a conn
 
 ### ToggleChief
 
-```text
+```
 function toggleChief(address _chiefAddress) external
 ```
 
@@ -82,26 +82,26 @@ Makes an address a chief if it isn't and vice versa.
 
 **Parameters**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
+| Parameter      | Type      | Description                |
+| -------------- | --------- | -------------------------- |
 | \_chiefAddress | `address` | The old/new chief address. |
 
 ### AddConnectors
 
-```text
+```
 function addConnectors(string[] calldata _connectorNames, address[] calldata _connectors) external isChief
 ```
 
 Adds new connectors.
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| \_connectorNames | `string[]` | Array of connector names |
-| \_connectors | `address[]` | Array of corresponding connector addresses to _\_connectorNames_ |
+| Parameter        | Type        | Description                                                      |
+| ---------------- | ----------- | ---------------------------------------------------------------- |
+| \_connectorNames | `string[]`  | Array of connector names                                         |
+| \_connectors     | `address[]` | Array of corresponding connector addresses to _\_connectorNames_ |
 
 ### RemoveConnectors
 
-```text
+```
 function removeConnectors(string[] calldata _connectorNames) external isChief
 ```
 
@@ -109,13 +109,13 @@ Removes already existing connectors.
 
 **Parameter**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
+| Parameter        | Type       | Description              |
+| ---------------- | ---------- | ------------------------ |
 | \_connectorNames | `string[]` | Array of connector names |
 
 ### UpdateConnectors
 
-```text
+```
 function updateConnectors(string[] calldata _connectorNames, address[] calldata _connectors) external isChief
 ```
 
@@ -123,14 +123,14 @@ Updates already existing `_connectorNames` with new addresses.
 
 **Parameter**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| \_connectorNames | `string[]` | Array of connector names |
-| \_connectors | `address[]` | Array of connector addresses corresponding to \_connectorNames |
+| Parameter        | Type        | Description                                                    |
+| ---------------- | ----------- | -------------------------------------------------------------- |
+| \_connectorNames | `string[]`  | Array of connector names                                       |
+| \_connectors     | `address[]` | Array of connector addresses corresponding to \_connectorNames |
 
 ### IsConnectors
 
-```text
+```
 function isConnectors(string[] calldata _connectorNames) external view returns (bool isOk, address[] memory _connectors)
 ```
 
@@ -138,14 +138,13 @@ Checks if `_connectorNames` are connectors and returns their connector addresses
 
 **Parameter**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
+| Parameter        | Type       | Description              |
+| ---------------- | ---------- | ------------------------ |
 | \_connectorNames | `string[]` | Array of connector names |
 
 **Returns**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| isOk | `boolean` | Is true if all _\_connectorNames_ are valid and false otherwise |
+| Parameter    | Type        | Description                                                             |
+| ------------ | ----------- | ----------------------------------------------------------------------- |
+| isOk         | `boolean`   | Is true if all _\_connectorNames_ are valid and false otherwise         |
 | \_connectors | `address[]` | Addresses of _\_connectorNames_ . False connectors have a null address. |
-

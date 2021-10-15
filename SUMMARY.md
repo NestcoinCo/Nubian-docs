@@ -5,12 +5,13 @@
 ## User Guide
 
 * [Getting Started](user-guide/getting-started.md)
-* [Wallets](user-guide/wallets.md)
+* [Get a Wallet](user-guide/get-a-wallet.md)
+* [Fund your Wallet.](user-guide/fund-your-wallet..md)
+* [Connect to Nubian](user-guide/connect-to-nubian.md)
 
 ## FAQs
 
 * [General](faqs/general-faq.md)
-* [DeFi Smart Accounts (DSAs)](faqs/dsa.md)
 * [🔄 Swap](faqs/swap.md)
 * [💸 Lend](faqs/lend.md)
 * [🤲 Borrow](faqs/borrow.md)
@@ -22,17 +23,6 @@
 
 * [How Nubian Works](dsa/how-nubian-works.md)
 * [Nubian Codebase Overview](dsa/nubian-code-overview.md)
-* [DeFi Smart Account (DSA)](dsa/dsa-introduction/README.md)
-  * [DSA Contracts](dsa/dsa-introduction/dsa-contracts.md)
-  * [Core](dsa/dsa-introduction/core/README.md)
-    * [NbnAccountV2](dsa/dsa-introduction/core/nbnaccountv2.md)
-    * [NbnImplementations](dsa/dsa-introduction/core/nbnimplementations.md)
-  * [Registry](dsa/dsa-introduction/registry/README.md)
-    * [NbnIndex](dsa/dsa-introduction/registry/nbnindex.md)
-    * [NbnList](dsa/dsa-introduction/registry/nbnlist.md)
-  * [Account Extensions](dsa/dsa-introduction/implementations/README.md)
-    * [NbnDefaultImplementation](dsa/dsa-introduction/implementations/nbndefaultimplementation.md)
-    * [NbnImplementationM1](dsa/dsa-introduction/implementations/nbnimplementationm1.md)
 * [Connectors](dsa/connectors/README.md)
   * [How to add a connector](dsa/connectors/how-to-add-a-connector.md)
   * [Connectors Registry](dsa/connectors/connectors-registry.md)
