@@ -11,7 +11,10 @@
 * [Choose your Experience Level](user-guide/choose-your-experience-level.md)
 * [Deposit and Withdraw](user-guide/deposit-and-withdraw.md)
 * [Swap Your Tokens](user-guide/swap-your-tokens.md)
-* [Start Earning](user-guide/start-earning.md)
+* [Start Earning](user-guide/start-earning/README.md)
+  * [Pooling](user-guide/start-earning/pooling.md)
+  * [Lend](user-guide/start-earning/lend.md)
+  * [Farm](user-guide/start-earning/farm.md)
 
 ## FAQs
 
@@ -19,10 +22,8 @@
 * [🔄 Swap](faqs/swap.md)
 * [🤑 Earn](faqs/earn/README.md)
   * [💸 Lend](faqs/earn/lend.md)
-  * [💰 Stake](faqs/earn/stake.md)
-  * [🌊 Liquidity Provision](faqs/earn/liquidity-provision.md)
+  * [🌊 Pooling](faqs/earn/liquidity-provision.md)
   * [🚜 Farming](faqs/earn/farming.md)
-* [🤲 Borrow](faqs/borrow.md)
 
 ## DEVELOPERS <a href="dsa" id="dsa"></a>
 

@@ -24,6 +24,14 @@ You can send an email with thorough details about the bug to dev@nestcoin.com. C
 
 The Nubian interface supports a large number of DeFi wallets including, Metamask, Coinbase, Binance wallet and Wallet Connect. Clicking on the "Connect Wallet" button on the top right gives you the complete list of wallets supported.
 
+### What is a BEP20 token?
+
+A BEP20 token is a token that is built on the Binance Smart Chain and follows the basic rules needed to allow anyone to send and receive them. Nubian currently supports only BEP20 tokens.
+
+### What is a Decentralized Application?
+
+A decentralized application is an application whose logic i.e backend exists on a decentralized platform like the blockchain in form of smart contracts. Nubian is a decentralized application as the Nubian smart contracts exist on the Binance Smart Chain.
+
 ### What are assets? (are they coins or tokens)
 
 Your assets are the coins and tokens in your wallet e.g Trustwallet or Metamask wallet. Nubian Finance can use the names interchangeably.
