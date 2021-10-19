@@ -4,7 +4,13 @@ description: Make deposits and withdrawals directly from the Nubian app.
 
 # Deposit and Withdraw
 
-Make deposits and withdrawals directly from the Nubian app without having to go back to your wallet.
+Make deposits and withdrawals directly from the Nubian decentralized application (dapp) without having to go back to your wallet. The Nubian dapp contains a dashboard, which is used as the central point of navigation around the complete Nubian set of products. Anytime you connect your wallet, you see this dashboard.
+
+![Nubian dashboard](<../.gitbook/assets/Dashboard with assets.png>)
+
+The dashboard contains 3 main parts, bottom navigation, assets & transactions tabs and the portfolio section which contains the total balance and portfolio buttons for changing a user's portfolio.&#x20;
+
+Let's take a look at two common portfolio buttons:
 
 ### Deposit
 
@@ -26,7 +32,7 @@ When you select the withdraw button, you will see the list of tokens you have a 
 
 ![Confirm Withdrawal](<../.gitbook/assets/iPhone 13 mini - 55.svg>)
 
-After selecting a withdrawal token, you will need to enter an address and the amount you want to withdraw. The address must be a BEP20 address i.e an address that can receive BEP20 tokens. You can select the maximum amount of tokens you have using the max button and switch between the dollar value and the number of tokens you want to withdraw using the switch button. 
+After selecting a withdrawal token, you will need to enter an address and the amount you want to withdraw. The address must be a BEP20 address i.e an address that can receive BEP20 tokens. You can select the maximum amount of tokens you have using the max button and switch between the dollar value and the number of tokens you want to withdraw using the switch button.&#x20;
 
 {% hint style="danger" %}
 Always make sure the addresses you enter are correct. Sending tokens to the wrong address will make you lose those tokens.
