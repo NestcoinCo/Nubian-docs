@@ -2,15 +2,15 @@
 description: Frequently asked questions about liquidity provision on Nubian.
 ---
 
-# 🌊 Liquidity Provision
+# 🌊 Pooling
 
-### What is Liquidity?
+### What is pooling?
+
+Pooling is the process of adding two of your tokens to a collection of tokens pooled from different users. The collection of tokens is called a pool, contains just those two tokens and is used to enable swaps on a decentralised exchange (dex) from any of the tokens to the other.&#x20;
+
+### What is liquidity?
 
 Liquidity is a measure of how easy it is to exchange an asset for another. When you provide liquidity for an asset, you make it easy to exchange an asset. E.g when you provide liquidity in BNB and DAI you are effectively saying people can come and exchange their BNB for DAI and vice versa using your tokens i.e they give you DAI or BNB and you give them an equivalent amount of BNB or DAI.
-
-### What is liquidity provision?
-
-Liquidity provision is the process of providing tokens to be used in facilitating swaps from one token to another. 
 
 ### What do I need to provide liquidity?
 
@@ -44,11 +44,11 @@ There are no fees associated with liquidity provision.
 
 A liquidity pool is a pair of tokens that are used to enable swaps between the two tokens on a decentralized exchange.
 
-### Can I pullout my liquidity at any point?
+### Can I pull out my liquidity at any point?
 
 Yes, you can.
 
-### If the pair is not swapped by anyone what anything happen to my liquidity?
+### If the pair is not swapped by anyone will anything happen to my liquidity?
 
 No, nothing happens to your liquidity.
 
@@ -58,7 +58,7 @@ This is due to impermanent loss.
 
 ### What is impermanent loss?
 
-Impermanent loss refers to the amount of money you lose when comparing providing liquidity vs simply holding the tokens.
+Impermanent loss refers to the amount of money you lose when comparing providing liquidity vs simply holding the tokens over a period of time.
 
 
 

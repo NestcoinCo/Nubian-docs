@@ -12,7 +12,7 @@ NBN is the Nubian token. You can stake NBN to earn yield under the staking tab o
 
 Nubian gives you a single place to experience all of Decentralized Finance with ease and forget about the hassle of jumping from one protocol to another to swap, earn high yields, borrow, stake or lend.
 
-### Where can I find the Nubian smart contracts? 
+### Where can I find the Nubian smart contracts?&#x20;
 
 The Nubian smart contracts are public and can be accessed on [Github](https://github.com/NescoinCo).
 
@@ -38,7 +38,7 @@ Your assets are the coins and tokens in your wallet e.g Trustwallet or Metamask 
 
 ### What are tokens, are they different from coins?
 
-Tokens are cryptocurrencies that are issued by a platform or individual to serve a purpose in their space e.g DAI issued by MakerDAO to serve as a stablecoin, while coins are cryptocurrencies that are native to a particular blockchain e.g BNB is a coin native to the Binance Smart Chain. 
+Tokens are cryptocurrencies that are issued by a platform or individual to serve a purpose in their space e.g DAI issued by MakerDAO to serve as a stablecoin, while coins are cryptocurrencies that are native to a particular blockchain e.g BNB is a coin native to the Binance Smart Chain.&#x20;
 
 ### Does Nubian finance deal with coins or just tokens?
 
@@ -46,7 +46,7 @@ Nubian finance deals with coins and tokens and does not differentiate between th
 
 ### What is an AMM?
 
-An AMM is an exchange that prices its assets using a mathematical formula.
+An AMM is an decentralised exchange that prices its assets using a mathematical formula.
 
 ### What is APR?
 
