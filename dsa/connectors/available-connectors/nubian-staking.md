@@ -8,13 +8,13 @@ Nubian staking Connector is deployed on [mainnet.](https://bscscan.com/address/0
 
 ## Code
 
-[main.sol](https://github.com/Open-Currency-Collective/Nubian-dsa-connectors/blob/master/contracts/connectors/nubian\_staking/main.sol)
+[main.sol](https://github.com/Open-Currency-Collective/Nubian-dsa-connectors/blob/master/contracts/connectors/nubian_staking/main.sol)
 
 ## Events
 
 ### LogDeposit
 
-```solidity
+```text
 event LogDeposit( uint256 recordId, uint256 amt, uint256 getId, uint256 setId);
 ```
 
@@ -22,7 +22,7 @@ Emitted each time a deposit occurs with [deposit](nubian-staking.md#deposit).
 
 ### LogWithdraw
 
-```solidity
+```text
 event LogWithdraw( address indexed user, uint256 recordId, uint256 amt, uint256 reward, uint256 getId, uint256 setId);
 ```
 
@@ -32,7 +32,7 @@ Emitted each time a withdrawal occurs with [withdraw](nubian-staking.md#withdraw
 
 ### Name
 
-```solidity
+```text
 string public name = "NubianStaking-v1";
 ```
 
@@ -42,7 +42,7 @@ Returns connector name.
 
 ### Deposit
 
-```solidity
+```text
 function deposit(
     uint256 amt,
     uint256 lockPeriod,
@@ -55,16 +55,16 @@ Stakes Nubian tokens for a certain period to earn nubian rewards. It logs the re
 
 **Deposit Parameters**
 
-| Parameter  | Type      | Description                                                                                                                                                                                      |
-| ---------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| amt        | `uint256` | Amount of Nubian tokens to stake.                                                                                                                                                                |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| amt | `uint256` | Amount of Nubian tokens to stake. |
 | lockPeriod | `uint256` | Length of time in seconds the user wants to stake his Nubian tokens must be more than the `minLockPeriod`. Valid lockPeriods and minLockPeriod are retrievable from the nubian staking contract. |
-| getId      | `uint256` | ID to get `amt`. Pass 0 if unsure of its value.                                                                                                                                                  |
-| setId      | `uint256` | ID to set amount staked. Pass 0 if unsure of its value.                                                                                                                                          |
+| getId | `uint256` | ID to get `amt`. Pass 0 if unsure of its value. |
+| setId | `uint256` | ID to set amount staked. Pass 0 if unsure of its value. |
 
 ### Withdraw
 
-```solidity
+```text
 function withdraw(
     uint256 recordId,
     uint256 getId,
@@ -76,8 +76,9 @@ Withdraws all the Nubian tokens staked with a `recordId` and gives the user earn
 
 **Withdraw Parameters**
 
-| Parameter | Type      | Description                                          |
-| --------- | --------- | ---------------------------------------------------- |
-| recordId  | `uint256` | ID to withdraw all staked tokens associated with it. |
-| getId     | `uint256` | Not used. Pass 0.                                    |
-| setId     | `uint256` | Not used. Pass 0.                                    |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| recordId | `uint256` | ID to withdraw all staked tokens associated with it. |
+| getId | `uint256` | Not used. Pass 0. |
+| setId | `uint256` | Not used. Pass 0. |
+

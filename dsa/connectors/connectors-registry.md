@@ -46,22 +46,6 @@ Emitted when a chief is enabled or disabled (toggled) with [`toggleChief`](conne
 
 ## Read-only Methods
 
-### NbnIndex
-
-```
-address public immutable nbnIndex;
-```
-
-Returns the address of [NbnIndex](broken-reference).
-
-### Chief
-
-```
-mapping(address => bool) public chief;
-```
-
-Returns a boolean indicating whether an address is a chief or not. A chief can add, remove, and update connectors.
-
 ### Connectors
 
 ```
@@ -70,21 +54,28 @@ mapping(string => address) public connectors;
 
 Maps connector names to their addresses and returns an address when given a connector name.
 
-## State-Changing Methods
-
-### ToggleChief
+### IsConnectors
 
 ```
-function toggleChief(address _chiefAddress) external
+function isConnectors(string[] calldata _connectorNames) external view returns (bool isOk, address[] memory _connectors)
 ```
 
-Makes an address a chief if it isn't and vice versa.
+Checks if `_connectorNames` are connectors and returns their connector addresses.
 
 **Parameters**
 
-| Parameter      | Type      | Description                |
-| -------------- | --------- | -------------------------- |
-| \_chiefAddress | `address` | The old/new chief address. |
+| Parameter        | Type       | Description              |
+| ---------------- | ---------- | ------------------------ |
+| \_connectorNames | `string[]` | Array of connector names |
+
+**Returns**
+
+| Parameter    | Type        | Description                                                             |
+| ------------ | ----------- | ----------------------------------------------------------------------- |
+| isOk         | `boolean`   | Is true if all _\_connectorNames_ are valid and false otherwise         |
+| \_connectors | `address[]` | Addresses of _\_connectorNames_ . False connectors have a null address. |
+
+## State-Changing Methods
 
 ### AddConnectors
 
@@ -128,23 +119,4 @@ Updates already existing `_connectorNames` with new addresses.
 | \_connectorNames | `string[]`  | Array of connector names                                       |
 | \_connectors     | `address[]` | Array of connector addresses corresponding to \_connectorNames |
 
-### IsConnectors
-
-```
-function isConnectors(string[] calldata _connectorNames) external view returns (bool isOk, address[] memory _connectors)
-```
-
-Checks if `_connectorNames` are connectors and returns their connector addresses.
-
-**Parameter**
-
-| Parameter        | Type       | Description              |
-| ---------------- | ---------- | ------------------------ |
-| \_connectorNames | `string[]` | Array of connector names |
-
 **Returns**
-
-| Parameter    | Type        | Description                                                             |
-| ------------ | ----------- | ----------------------------------------------------------------------- |
-| isOk         | `boolean`   | Is true if all _\_connectorNames_ are valid and false otherwise         |
-| \_connectors | `address[]` | Addresses of _\_connectorNames_ . False connectors have a null address. |

@@ -15,7 +15,7 @@ The coven holds the Wizard and connectors registry contract.\
 
 ### **nubian-dsa-connectors**
 
-Contains all the code of all existing connectors. Smart accounts use them to interact with DeFi protocols.\
+Contains all the code of all existing connectors. Connectors help Nubian interact with DeFi protocol and almost every DeFi protocol supported by Nubian has a connector.\
 [Repo](https://github.com/NestcoinCo/Nubian-dsa-connectors)\
 [Documentation](connectors/)
 

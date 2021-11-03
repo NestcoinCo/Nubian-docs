@@ -12,7 +12,7 @@ To get started using the SDK, you must do one or all of the following:
 * Fetch Smart Accounts - `getAccounts()`
 * Set Smart Account - `setInstance()`
 
-## build\(\)
+## build()
 
 This creates a uniquely numbered Smart Account which acts as a proxy to interact with verified DeFi protocols and each DSA has a unique ethereum address. If the account is already created, you can use the `setInstance` method to activate a paricular DSA account and start casting spells.
 
@@ -38,20 +38,21 @@ dsa.build({
 
 ### Parameters
 
-| **Parameter** | **Type** | **Description** | **Default** |
-| :--- | :--- | :--- | :--- |
-| gasPrice | `string/number` | The gas price in gwei. Mostly used in Node implementation to configure the transaction confirmation speed. | Not optional in Node and estimated in other modes. |
-| origin | `address` | The address to track the origin of the transaction. Used for analytics and affiliates. | `0x0` |
-| authority | `address` | The DSA authority. This is the address to be added as an authority. An authority has control over the DSA created. | Address of the connected wallet, private key address or public key in Browser, Node and Simulation modes respectively. |
-| from | `address` | The account with which you want to create your DSA. This is helpful to create DSA for other addresses. | Same as the authority parameter. |
-| nonce | `string/number` | Nonce of your sender account. Mostly used in Node implementation to send a transaction with a particular nonce either to override unconfirmed transaction or some other purpose. | Used only in Node. |
-| version | `string/number` | The DSA version to create. | 2 |
+|               |                 |                                                                                                                                                                                  |                                                                                                                        |
+| ------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Parameter** | **Type**        | **Description**                                                                                                                                                                  | **Default**                                                                                                            |
+| gasPrice      | `string/number` | The gas price in gwei. Mostly used in Node implementation to configure the transaction confirmation speed.                                                                       | Not optional in Node and estimated in other modes.                                                                     |
+| origin        | `address`       | The address to track the origin of the transaction. Used for analytics and affiliates.                                                                                           | `0x0`                                                                                                                  |
+| authority     | `address`       | The DSA authority. This is the address to be added as an authority. An authority has control over the DSA created.                                                               | Address of the connected wallet, private key address or public key in Browser, Node and Simulation modes respectively. |
+| from          | `address`       | The account with which you want to create your DSA. This is helpful to create DSA for other addresses.                                                                           | Same as the authority parameter.                                                                                       |
+| nonce         | `string/number` | Nonce of your sender account. Mostly used in Node implementation to send a transaction with a particular nonce either to override unconfirmed transaction or some other purpose. | Used only in Node.                                                                                                     |
+| version       | `string/number` | The DSA version to create.                                                                                                                                                       | 2                                                                                                                      |
 
 ### Returns
 
 This function returns a promise that resolves to the transaction receipt when the transaction is mined.
 
-## getAccounts\(\)
+## getAccounts()
 
 Fetch all the accounts owned by an ethereum address by calling `getAccounts()`.
 
@@ -65,9 +66,10 @@ dsa.getAccounts(address).then(console.log)
 
 ### Parameter
 
-| **Parameter** | **Type** | **Description** |
-| :--- | :--- | :--- |
-| address | `address` | An ethereum address. |
+|               |           |                      |
+| ------------- | --------- | -------------------- |
+| **Parameter** | **Type**  | **Description**      |
+| address       | `address` | An ethereum address. |
 
 ### Returns
 
@@ -84,7 +86,7 @@ The method returns a Promise that resolves to an array of objects with all the D
 ]
 ```
 
-## setInstance\(\)
+## setInstance()
 
 Be sure to configure global values by calling `setInstance()`. You can get the id of the DSA by calling `getAccounts()`. The configured account will be used for all subsequent calls.
 
@@ -94,9 +96,10 @@ dsa.setInstance(dsaId) // DSA ID
 
 ### Parameter
 
-| **Parameter** | **Type** | **Description** |
-| :--- | :--- | :--- |
-| dsaId | `Number` | DSA ID to be used for casting spells. |
+|               |          |                                       |
+| ------------- | -------- | ------------------------------------- |
+| **Parameter** | **Type** | **Description**                       |
+| dsaId         | `Number` | DSA ID to be used for casting spells. |
 
 ### Returns
 
@@ -110,4 +113,3 @@ This method returns a promise that resolves to the newly set instance. Here's ho
     chainId: 56,
   }
 ```
-
