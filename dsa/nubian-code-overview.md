@@ -8,13 +8,24 @@ description: >-
 
 The Nubian Codebase is hosted on Github we've got four main repositories that hold most of our code.
 
-**nubian-dsa-connect**: Holds the code for the SDK. The SDK helps you interact with the Nubian ecosystem using just Javascript.\
-[Code](https://github.com/Open-Currency-Collective/nubian-dsa-connect) \
+### **nubian-coven**
+
+The coven holds the Wizard and connectors registry contract.\
+[Repo](https://github.com/NestcoinCo/Nubian-coven/tree/main/contracts)
+
+### **nubian-dsa-connectors**
+
+Contains all the code of all existing connectors. Smart accounts use them to interact with DeFi protocols.\
+[Repo](https://github.com/NestcoinCo/Nubian-dsa-connectors)\
+[Documentation](connectors/)
+
+### **nubian-dsa-connect**
+
+&#x20;Holds the code for the SDK. The SDK helps you interact with the Nubian ecosystem using just Javascript.\
+[Repo](https://github.com/NestcoinCo/nubian-dsa-connect)\
 [Documentation](sdk/)
 
-**nubian-frontend**: Holds all the code concerning the Nubian user interface. It is what you see when you launch the Nubian application.\
-[Code](https://github.com/Open-Currency-Collective/nubian-frontend)
+### **nubian-frontend**:&#x20;
 
-**nubian-dsa-connectors**: Contains all the code of all existing connectors. Smart accounts use them to interact with DeFi protocols.\
-[Code](https://github.com/Open-Currency-Collective/Nubian-dsa-connectors)\
-[Documentation](connectors/)\
+Holds all the code concerning the Nubian user interface. It is what you see when you launch the Nubian application.\
+[Repo](https://github.com/NestcoinCo/nubian-frontend)\

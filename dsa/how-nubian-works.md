@@ -4,23 +4,35 @@ description: Get an overview of the whole Nubian ecosystem in a jiffy.
 
 # How Nubian Works
 
-Nubian Finance is a Decentralized Finance (DeFi) aggregator, it leverages different DeFi protocols to give the average crypto user a simple DeFi experience. It is currently deployed on the Binance Smart Chain and makes extensive use of DeFi Smart Accounts (DSA)\*\* \*\*simply called a smart account.
+Nubian Finance is a Decentralized Finance (DeFi) aggregator, it leverages different DeFi protocols to give the average crypto user a simple DeFi experience. It is currently deployed on the Binance Smart Chain.
 
-## Connectors
+Nubian Finance uses a proxy contract called a **wizard** and a group of contracts called **connectors** to route transactions across different protocols, each connector is protocol specific. The wizard receives the transaction from your address, the transaction will contain one or more calls to each connector, each call is called a **spell. **The wizard casts each spell by sending it to the specified connector which in turn interacts with its protocol.
 
-For the smart account to interact with DeFi protocols it uses an extension that in turn interacts with separate contracts called connectors. Connectors are smart contracts that allow smart accounts to interact with various DeFi protocols. [NbnImplementationsM1](broken-reference) is the extension that extends the smart accounts to support the use of connectors. Each call to a protocol done using NbnImplementationsM1 is called a **spell** and multiple spells can be combined to be \*\*cast \*\*(execute a spell) in a single transaction. This allows for very simple actions and even complex actions can be done using different DeFi protocols. These connectors are built for each DeFi protocol and implement specific functions needed to interact with a DeFi protocol. So connecting smart accounts to a new DeFi protocol simply just involves adding a new connector for that protocol.
+This mechanism allows Nubian to execute various strategies by interacting with different protocols in a single transaction.
 
-## The flow of a simple swap on Pancakeswap
+{% hint style="info" %}
+Nubian still lets users use their addresses to interact directly with some protocols that require external wallet addresses to interact directly with them.
+{% endhint %}
+
+### Wizard
+
+This is a proxy contract that receives the transaction sent from the Nubian frontend. It receives the transaction from the user and casts all the spells in the transaction using different connectors. The Wizard casts each spell using a `delegatecall` to the spells connector.
+
+### Connectors
+
+This is a group of contracts that hold the logic the wizard uses in connecting with various protocols. Each protocol has its own connector. Each connector has a function that interacts with the DeFi protocol to perform each major function of the protocol. The connector also formats the inputs it receives before it sends them to the protocol.
+
+## The flow of a simple token swap on Pancakeswap
 
 {% hint style="info" %}
 Every call to a DeFi protocol follows the same process below.
 {% endhint %}
 
-1. The user creates a smart account if he doesn't have one already.
-2. The smart account is funded with the token to be swapped if it isn't there already.
-3. The user enters the amount of the token he wants to swap and other necessary parameters and calls `cast` on the smart account.
-4. The smart account finds the extension that implements `cast` ([NbnImplementationsM1](broken-reference)) and passes the data to it.
-5. NbnImplementationsM1 finds the Pancakeswap connector and casts the swap spell using the connector.
-6. The Pancakceswap connector interacts with Pancakeswap and completes the swap spell.
+1. The user interacts with the Nubian frontend which sends a transaction containing a deposit swap and withdrawal spells to the wizard.
+2. The wizard casts the deposit spell by delegate calling the deposit connector which transfers the token to itself. It must already be approved to spend the amount to be swapped.
+3. It casts the swap spell by delegate calling the Pancakeswap connector which in turn calls the Pancakeswap router and completes the swap spell with the token it got as a deposit.
+4. It casts the withdraw spell by delegate calling the withdraw connector which sends the token swapped from the Wizards balance to the user.
+
+The process above is done for almost every protocol that Nubian interacts with. To interact with multiple protocols in one spell, multiple spells that interact with each of those protocols are sent in their sequential order of interaction to the wizard.
 
 We offer an **SDK** that handles all the blockchain connections and leaves you to just cast spells from your browser or node backend. It helps you concentrate on just the user interface and to deliver a nice user experience to your users.

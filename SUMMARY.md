@@ -29,6 +29,7 @@
 
 * [How Nubian Works](dsa/how-nubian-works.md)
 * [Nubian Codebase Overview](dsa/nubian-code-overview.md)
+* [🧙♂ Wizard](dsa/wizard.md)
 * [Connectors](dsa/connectors/README.md)
   * [How to add a connector](dsa/connectors/how-to-add-a-connector.md)
   * [Connectors Registry](dsa/connectors/connectors-registry.md)
