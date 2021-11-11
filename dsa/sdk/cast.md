@@ -67,7 +67,8 @@ spells.add({
   method: "withdraw",
   args: [
     "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-    "uint(-1)", //max BUSD sent to Wizard from swap spell
+    "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+   //max BUSD sent to Wizard from swap spell
     "0x0", // address to receive BUSD
     0,
     0
@@ -87,7 +88,7 @@ spells.cast().then(console.log) // returns transaction receipt
 
 You can pass an object to send **optional** parameters like sending ETH along with the transaction.
 
-```js
+```javascript
 spells.cast({
   gasPrice: web3.utils.toWei(gasPrice, 'gwei'), // in gwei, used in node implementation.
   value: '1000000000000000000', // sending 1 BNB along with the transaction.
@@ -109,7 +110,7 @@ This will send the transaction to blockchain in node implementation (or ask user
 
 You can see the list of transactions by an address:
 
-```js
+```javascript
 nub.getAccountTransactions("0x00");
 ```
 
@@ -119,13 +120,13 @@ Replace `0x0` with the address of the EOA.
 
 You can transfer tokens using the transferToken function.
 
-```js
+```javascript
 nub.transferToken(_tokenAddress, _recipient, _amount);
 ```
 
 for Eth transfers, make use of the transferEth function.
 
-```js
+```javascript
 nub.transferEth(_recipient, _amount);
 ```
 
@@ -133,7 +134,7 @@ nub.transferEth(_recipient, _amount);
 
 You can approve the wizard contract to spend tokens on behalf of the user by calling the approve or infiniteApprove functions.
 
-```js
+```javascript
 nub.infiniteApprove(_tokenAddress);
 ```
 
