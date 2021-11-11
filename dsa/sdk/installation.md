@@ -2,21 +2,17 @@
 description: Getting started shouldn't be difficult.
 ---
 
-# Installation
+# Installation and Setup
 
-To get started, install the DSA Connect package from npm:
+### Installation
+
+To get started, install the Nubian coven SDK package from npm:
 
 ```bash
-npm install nubian-dsa-connect
+npm install nubian-coven-sdk
 ```
 
-For browsers, via jsDelivr CDN:
-
-```markup
-<script src="https://cdn.jsdelivr.net/npm/nubian-dsa-connect@latest/dist/index.bundle.js"></script>
-```
-
-## Usage
+### Usage
 
 To enable web3 calls via SDK, instantiate [web3 library](https://github.com/ChainSafe/web3.js#installation)
 
@@ -34,21 +30,20 @@ if (window.ethereum) {
 ```javascript
 // in nodejs
 const Web3 = require('web3')
-const DSA = require('nubian-dsa-connect')
+const NUB = require('nubian-coven-sdk')
 const web3 = new Web3(new Web3.providers.HttpProvider(ETH_NODE_URL))
 ```
 
-Now instantiate DSA with web3 instance.
+Now instantiate NUB with web3 instance.
 
 ```javascript
 // in browser
-const dsa = new DSA(web3)
+const nub = new NUB(web3)
 
 // in nodejs
-const dsa = new DSA({
+const nub = new NUB({
   web3: web3,
   mode: 'node',
   privateKey: PRIVATE_KEY,
 })
 ```
-

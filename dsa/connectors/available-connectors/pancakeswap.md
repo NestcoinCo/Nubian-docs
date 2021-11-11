@@ -14,7 +14,7 @@ Pancakeswap Connector is deployed on [mainnet](https://bscscan.com/address/0x546
 
 ### LogDepositLiquidity
 
-```text
+```solidity
 event LogDepositLiquidity( address indexed tokenA, address indexed tokenB, uint256 amtA, uint256 amtB, uint256 uniAmount, uint256 getId, uint256 setId );
 ```
 
@@ -22,16 +22,16 @@ Emitted with other spells each time a deposit occurs with [Deposit](pancakeswap.
 
 ### LogWithdrawLiquidity
 
-```text
-    event LogWithdrawLiquidity( address indexed tokenA, address indexed tokenB, uint256 amountA, uint256 amountB, uint256 uniAmount, uint256 getId, uint256[] setId);
+```solidity
+event LogWithdrawLiquidity( address indexed tokenA, address indexed tokenB, uint256 amountA, uint256 amountB, uint256 uniAmount, uint256 getId, uint256[] setId);
 ```
 
 Emitted with other spells each time a withdrawal occurs with [Withdraw](pancakeswap.md#Withdraw).
 
 ### LogSell
 
-```text
-    event LogSell(address indexed buyToken,address indexed sellToken,uint256 buyAmt,uint256 sellAmt,uint256 getId,uint256 setId);
+```solidity
+event LogSell(address indexed buyToken,address indexed sellToken,uint256 buyAmt,uint256 sellAmt,uint256 getId,uint256 setId);
 ```
 
 Emitted with other spells each time a swap, sell or buy occurs with [Sell](pancakeswap.md#Sell).
@@ -40,7 +40,7 @@ Emitted with other spells each time a swap, sell or buy occurs with [Sell](panca
 
 ### Name
 
-```text
+```solidity
 string public constant name = "PancakeswapV2-v1";
 ```
 
@@ -50,7 +50,7 @@ Returns connector name.
 
 ### Deposit
 
-```text
+```solidity
 function deposit(
   address tokenA,
   address tokenB,
@@ -68,18 +68,18 @@ Adds liquidity to the `tokenA-tokenB` pool on Pancakeswap. Here are a few things
 
 **Deposit Parameters**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| tokenA | `address` | Address of tokenA. |
-| tokenB | `address` | Address of tokenB. |
-| amtA | `uint256` | Amount of tokenA to be added as liquidity. |
-| amtB | `uint256` | Amount of tokenB to be added as liquidity. |
-| getId | `uint256` | Not used. Pass 0. |
-| setId | `uint256` | ID to store the amount of liquidity pool tokens received by the user. |
+| Parameter | Type      | Description                                                           |
+| --------- | --------- | --------------------------------------------------------------------- |
+| tokenA    | `address` | Address of tokenA.                                                    |
+| tokenB    | `address` | Address of tokenB.                                                    |
+| amtA      | `uint256` | Amount of tokenA to be added as liquidity.                            |
+| amtB      | `uint256` | Amount of tokenB to be added as liquidity.                            |
+| getId     | `uint256` | Not used. Pass 0.                                                     |
+| setId     | `uint256` | ID to store the amount of liquidity pool tokens received by the user. |
 
 ### Withdraw
 
-```text
+```solidity
 function withdraw(
     address tokenA,
     address tokenB,
@@ -92,16 +92,16 @@ Removes liquidity from the `tokenA-tokenB` pool on Pancakeswap. Reverts if no to
 
 **Withdraw Parameters**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| tokenA | `address` | Address of tokenA. |
-| tokenB | `address` | Address of tokenB. |
-| lpAmt | `uint256` | Amount of liquidity provider \(lp\) tokens to exchange. Pass `uint(-1)` to withdraw the max amount of lp tokens owned. |
-| getId | `uint256` | Not used. Pass 0. |
+| Parameter | Type      | Description                                                                                                          |
+| --------- | --------- | -------------------------------------------------------------------------------------------------------------------- |
+| tokenA    | `address` | Address of tokenA.                                                                                                   |
+| tokenB    | `address` | Address of tokenB.                                                                                                   |
+| lpAmt     | `uint256` | Amount of liquidity provider (lp) tokens to exchange. Pass `uint(-1)` to withdraw the max amount of lp tokens owned. |
+| getId     | `uint256` | Not used. Pass 0.                                                                                                    |
 
 ### Sell
 
-```text
+```solidity
 function sell(
     address buyAddr,
     address sellAddr,
@@ -116,12 +116,11 @@ Used to swap, buy and sell tokens on Pancakeswap.
 
 **Sell Parameters**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| buyAddr | `address` | Address of token to buy or swap from. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB. |
-| sellAddr | `address` | Address of token to sell or swap to. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB. |
-| sellAmt | `uint256` | Amount of sellAddr tokens to buy. |
-| unitAmt | `uint256` | The unit amount of sellAmt/buyAmt with slippage. |
-| getId | `uint256` | Not used. Pass 0. |
-| setId | `uint256` | ID to store amount of buyAddr tokens bought. |
-
+| Parameter | Type      | Description                                                                        |
+| --------- | --------- | ---------------------------------------------------------------------------------- |
+| buyAddr   | `address` | Address of token to buy. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB.  |
+| sellAddr  | `address` | Address of token to sell. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB. |
+| sellAmt   | `uint256` | Amount of sellAddr tokens to buy.                                                  |
+| unitAmt   | `uint256` | The unit amount of sellAmt/buyAmt with slippage.                                   |
+| getId     | `uint256` | Not used. Pass 0.                                                                  |
+| setId     | `uint256` | ID to store amount of buyAddr tokens bought.                                       |

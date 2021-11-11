@@ -40,8 +40,7 @@
     * [Pancakeswap](dsa/connectors/available-connectors/pancakeswap.md)
     * [Venus](dsa/connectors/available-connectors/venus.md)
 * [SDK](dsa/sdk/README.md)
-  * [Installation](dsa/sdk/installation.md)
-  * [Setup Account](dsa/sdk/setup-account.md)
+  * [Installation and Setup](dsa/sdk/installation.md)
   * [Cast](dsa/sdk/cast.md)
 
 ## Contributors

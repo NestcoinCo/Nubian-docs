@@ -1,6 +1,6 @@
 # Basic
 
-Basic handles user deposits and withdrawals on the DeFi Smart Account \(DSA\).
+Basic handles user deposits and withdrawals on the DeFi Smart Account (DSA).
 
 ## Address
 
@@ -14,7 +14,7 @@ Basic Connector is deployed on [mainnet](https://bscscan.com/address/0xC2e1c0fc0
 
 ### LogDeposit
 
-```text
+```solidity
 event LogDeposit(address indexed erc20, uint256 tokenAmt, uint256 getId, uint256 setId);
 ```
 
@@ -22,7 +22,7 @@ Emitted when there is a deposit with [deposit](basic.md#Deposit).
 
 ### LogWithdraw
 
-```text
+```solidity
 event LogWithdraw(address indexed erc20, uint256 tokenAmt, address indexed to, uint256 getId uint256 setId);
 ```
 
@@ -34,15 +34,15 @@ Emitted when there is a withdrawal with [withdraw](basic.md#Withdraw).
 
 #### Name
 
-```text
+```solidity
 string constant public name = "Basic-v1";
 ```
 
 Returns connector name.
 
-#### Deposit <a id="Deposit"></a>
+#### Deposit <a href="deposit" id="deposit"></a>
 
-```text
+```solidity
 function deposit(
     address token,
     uint256 amt,
@@ -55,16 +55,16 @@ Deposits into DSA
 
 **Deposit Parameters**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| token | `address` | Address of token to be deposited. Use `0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE` for BNB. |
-| amt | `uint256` | Amount of tokens to be deposited. Pass `uint(-1)` to deposit full depositor balance. `amt` must equal `msg.value` for ETH deposits. |
-| getId | `uint256` | ID to get `amt`. Pass 0 if unsure of its value. |
-| setId | `uint256` | ID to set amount deposited. Pass 0 if unsure of its value. |
+| Parameter | Type      | Description                                                                                                                         |
+| --------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| token     | `address` | Address of token to be deposited. Use `0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE` for BNB.                                         |
+| amt       | `uint256` | Amount of tokens to be deposited. Pass `uint(-1)` to deposit full depositor balance. `amt` must equal `msg.value` for ETH deposits. |
+| getId     | `uint256` | ID to get `amt`. Pass 0 if unsure of its value.                                                                                     |
+| setId     | `uint256` | ID to set amount deposited. Pass 0 if unsure of its value.                                                                          |
 
-#### Withdraw <a id="Withdraw"></a>
+#### Withdraw <a href="withdraw" id="withdraw"></a>
 
-```text
+```solidity
 function withdraw(
     address token,
     uint amt,
@@ -78,10 +78,9 @@ Withdraws from DSA.
 
 **Withdraw Parameters**
 
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
-| token | `address` | Address of token to be withdrawn. Use 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB. |
-| amt | `uint256` | Amount of tokens to be withdrawn. Pass `uint(-1)` to withdraw the full DSA balance of token or BNB. |
-| getId | `uint256` | ID to get `amt`. Pass 0 if unsure of its value. |
-| setId | `uint256` | ID to set amount withdrawn. Pass 0 if unsure of its value. |
-
+| Parameter | Type      | Description                                                                                         |
+| --------- | --------- | --------------------------------------------------------------------------------------------------- |
+| token     | `address` | Address of token to be withdrawn. Use 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB.           |
+| amt       | `uint256` | Amount of tokens to be withdrawn. Pass `uint(-1)` to withdraw the full DSA balance of token or BNB. |
+| getId     | `uint256` | ID to get `amt`. Pass 0 if unsure of its value.                                                     |
+| setId     | `uint256` | ID to set amount withdrawn. Pass 0 if unsure of its value.                                          |
