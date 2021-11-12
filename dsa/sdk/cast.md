@@ -101,7 +101,7 @@ Here are the optional parameters.
 | **Parameter (optional)** | **Type**        | **Description**                                                                                                                                                                |
 | ------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | gasPrice                 | `string/number` | The gas price in gwei. Mostly used in Node implementation to configure the transaction confirmation speed.                                                                     |
-| value                    | `string/number` | Amount of BNB which you want to send along with the transaction (in wei).                                                                                                      |
+| value                    | `string/number` | Amount of BNB which you want to send along with the transaction (in wei). Used when you want to deposit BNB.                                                                   |
 | nonce                    | `string/number` | Nonce of your sender account. Mostly used in Node implementation to send transaction with a particular nonce either to override unconfirmed transaction or some other purpose. |
 
 This will send the transaction to blockchain in node implementation (or ask users to confirm the transaction on web3 wallets like Metamask).
