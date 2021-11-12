@@ -6,7 +6,11 @@ description: Welcome let us show you how we cast spells here at Nubian.
 
 The wizard is the main contract that users interact with almost every time they do a transaction on Nubian. It is a proxy contract that directs each call to a DeFi protocol using a connector which formats inputs and sends them to the DeFi protocol.&#x20;
 
-Like every wizard, the Nubian wizard casts spells. Each spell is a call to a DeFi protocol. These spells are achieved using connectors which are separate contracts that interact with a DeFi protocol. Almost every protocol that Nubian interacts with has its own connector. The spells can be combined in a single transaction to form complex strategies.&#x20;
+Like every wizard, the Nubian wizard casts spells. Each spell is a call to a DeFi protocol. These spells are achieved using connectors which are separate contracts that interact with a DeFi protocol. Almost every protocol that Nubian interacts with has its own connector. The spells can be combined in a single transaction to form complex strategies.
+
+{% hint style="danger" %}
+It is necessary to note that the Wizard contract is stateless and is not meant to hold any funds. If you send funds to the contract and fail to retrieve them in that same transaction, they can be taken by anyone.
+{% endhint %}
 
 ## Address
 
@@ -57,10 +61,10 @@ function spell(
 
 This function does the actual casting by calling the connector with the data it receives and returns the event so it can be cast.
 
-| Parameter | Type      | Description                                                        |
-| --------- | --------- | ------------------------------------------------------------------ |
-| \_target  | `address` | The address of the connector to be used in the spell               |
-| \_data    | `bytes`   | The abi encoded parameters which are to be passed to the connector |
+| Parameter | Type      | Description                                                         |
+| --------- | --------- | ------------------------------------------------------------------- |
+| \_target  | `address` | The address of the connector to be used in the spell                |
+| \_data    | `bytes`   | The abi encoded parameters which are to be passed to the connector. |
 
 ### Cast
 
@@ -77,7 +81,7 @@ Receives the arrays of connectors (`_targetNames`) and the parameters (`_data`) 
 | Parameter     | Type       | Description                                                                                                                                                                 |
 | ------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | \_targetNames | `string[]` | The names of connectors to be used in casting spells. Their names are mapped to their addresses in the [connectors registry](connectors/connectors-registry.md#connectors). |
-| \_datas       | `bytes[]`  | The abi encoded parameter passed to the corresponding connector in `_targetNames`.                                                                                          |
+| \_datas       | `bytes[]`  | The abi encoded parameters passed to the corresponding connector in `_targetNames`.                                                                                         |
 | origin        | `address`  | The address to track the origin of the transaction. Used for analytics and affiliates.                                                                                      |
 
 ### Connector Names

@@ -16,7 +16,7 @@ Nubian still lets users use their addresses to interact directly with some proto
 
 ### Wizard
 
-This is a proxy contract that receives the transaction sent from the Nubian frontend. It receives the transaction from the user and casts all the spells in the transaction using different connectors. The Wizard casts each spell using a `delegatecall` to the spells connector.
+This is a proxy contract that receives the transaction sent from the Nubian frontend through the SDK. It receives the transaction from the user and casts all the spells in the transaction using different connectors. The Wizard casts each spell using a `delegatecall` to the spells connector.
 
 ### Connectors
 
@@ -25,12 +25,12 @@ This is a group of contracts that hold the logic the wizard uses in connecting w
 ## The flow of a simple token swap on Pancakeswap
 
 {% hint style="info" %}
-Every call to a DeFi protocol follows the same process below.
+Every spell to a DeFi protocol follows the same process below.
 {% endhint %}
 
-1. The user interacts with the Nubian frontend which sends a transaction containing a deposit swap and withdrawal spells to the wizard.
-2. The wizard casts the deposit spell by delegate calling the deposit connector which transfers the token to itself. It must already be approved to spend the amount to be swapped.
-3. It casts the swap spell by delegate calling the Pancakeswap connector which in turn calls the Pancakeswap router and completes the swap spell with the token it got as a deposit.
+1. The user interacts with the Nubian frontend which sends a transaction containing a deposit swap and withdrawal spells to the wizard through the SDK.
+2. The wizard casts the deposit spell by delegate calling the deposit connector which transfers the token to itself from the Externally Owned Account (EOA). It must already be approved to spend the amount to be swapped.
+3. It casts the swap spell by delegate calling the Pancakeswap connector which in turn calls the Pancakeswap router and completes the swap spell with the token it got as a deposit. The token obtained from the swap is sent to the Wizard.
 4. It casts the withdraw spell by delegate calling the withdraw connector which sends the token swapped from the Wizards balance to the user.
 
 The process above is done for almost every protocol that Nubian interacts with. To interact with multiple protocols in one spell, multiple spells that interact with each of those protocols are sent in their sequential order of interaction to the wizard.

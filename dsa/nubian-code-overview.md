@@ -15,17 +15,17 @@ The coven holds the Wizard and connectors registry contract.\
 
 ### **nubian-dsa-connectors**
 
-Contains all the code of all existing connectors. Connectors help Nubian interact with DeFi protocol and almost every DeFi protocol supported by Nubian has a connector.\
-[Repo](https://github.com/NestcoinCo/Nubian-dsa-connectors)\
+Contains all the code of all existing connectors. Connectors help Nubian interact with DeFi protocols and almost every DeFi protocol supported by Nubian has a connector.\
+[Repo](https://github.com/NestcoinCo/nubian-coven-sdk)\
 [Documentation](connectors/)
 
-### **nubian-dsa-connect**
+### **nubian-coven-sdk**
 
 &#x20;Holds the code for the SDK. The SDK helps you interact with the Nubian ecosystem using just Javascript.\
-[Repo](https://github.com/NestcoinCo/nubian-dsa-connect)\
+[Repo](https://github.com/NestcoinCo/nubian-coven-sdk)\
 [Documentation](sdk/)
 
-### **nubian-frontend**:&#x20;
+### **nubian-frontend**
 
 Holds all the code concerning the Nubian user interface. It is what you see when you launch the Nubian application.\
 [Repo](https://github.com/NestcoinCo/nubian-frontend)\
