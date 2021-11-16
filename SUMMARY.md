@@ -42,6 +42,7 @@
 * [SDK](dsa/sdk/README.md)
   * [Installation and Setup](dsa/sdk/installation.md)
   * [Cast](dsa/sdk/cast.md)
+  * [Utilities](dsa/sdk/utilities.md)
 
 ## Contributors
 
