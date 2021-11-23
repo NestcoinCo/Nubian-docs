@@ -116,11 +116,11 @@ Used to swap, buy and sell tokens on Pancakeswap.
 
 **Sell Parameters**
 
-| Parameter | Type      | Description                                                                        |
-| --------- | --------- | ---------------------------------------------------------------------------------- |
-| buyAddr   | `address` | Address of token to buy. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB.  |
-| sellAddr  | `address` | Address of token to sell. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB. |
-| sellAmt   | `uint256` | Amount of sellAddr tokens to buy.                                                  |
-| unitAmt   | `uint256` | The unit amount of sellAmt/buyAmt with slippage.                                   |
-| getId     | `uint256` | Not used. Pass 0.                                                                  |
-| setId     | `uint256` | ID to store amount of buyAddr tokens bought.                                       |
+| Parameter | Type      | Description                                                                                                                                                                                                                   |
+| --------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| buyAddr   | `address` | Address of token to buy. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB.                                                                                                                                             |
+| sellAddr  | `address` | Address of token to sell. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB.                                                                                                                                            |
+| sellAmt   | `uint256` | Amount of sellAddr tokens to sell.                                                                                                                                                                                            |
+| unitAmt   | `uint256` | The unit amount of buyAmt/sellAmt with slippage. E.g If 1.1 BNB should buy 2.4 NBN tokens, with a slippage of 2% the customer agrees to buy at least 2.352 NBN (2.4-0.02\*2.4). Then unitAmt becomes `(2.3952/1.1) * 10**18`. |
+| getId     | `uint256` | Not used. Pass 0.                                                                                                                                                                                                             |
+| setId     | `uint256` | ID to store amount of buyAddr tokens bought.                                                                                                                                                                                  |

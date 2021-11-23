@@ -34,7 +34,6 @@
   * [How to add a connector](dsa/connectors/how-to-add-a-connector.md)
   * [Connectors Registry](dsa/connectors/connectors-registry.md)
   * [Available Connectors](dsa/connectors/available-connectors/README.md)
-    * [Autofarm](dsa/connectors/available-connectors/autofarm.md)
     * [Basic](dsa/connectors/available-connectors/basic.md)
     * [Nubian Staking](dsa/connectors/available-connectors/nubian-staking.md)
     * [Pancakeswap](dsa/connectors/available-connectors/pancakeswap.md)
