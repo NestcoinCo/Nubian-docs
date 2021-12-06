@@ -104,7 +104,7 @@ Deposit token into Venus to earn interest. Depositor gets vTokens.
 | getId     | `uint256` | ID to get amt. Pass 0 if unsure of its value.                                                |
 | setId     | `uint256` | ID to store the amount deposited. Pass 0 if unsure of its value.                             |
 
-### Deposit <a href="deposit" id="deposit"></a>
+### Deposit <a href="#deposit" id="deposit"></a>
 
 ```solidity
 function deposit(
@@ -172,7 +172,7 @@ Withdraw tokens from Venus with interest earned. The account making the withdraw
 | getId     | `uint256` | ID to get amt. Pass 0 if unsure of its value.                                                               |
 | setId     | `uint256` | ID to store the amount withdrawn. Pass 0 if unsure of its value.                                            |
 
-#### BorrowRaw <a href="borrowraw" id="borrowraw"></a>
+#### BorrowRaw <a href="#borrowraw" id="borrowraw"></a>
 
 ```solidity
 function borrowRaw(
@@ -286,7 +286,7 @@ Check [DepositRaw](venus.md) function for the other parameters.
 | --------- | --------- | ------------------------------------------- |
 | setId     | `uint256` | ID to store the amount of vTokens received. |
 
-#### DepositVToken <a href="depositvtoken" id="depositvtoken"></a>
+#### DepositVToken <a href="#depositvtoken" id="depositvtoken"></a>
 
 ```solidity
 function depositVToken(
@@ -333,7 +333,7 @@ Check the [WithdrawRaw](venus.md) function for other parameters.
 | vTokenAmt | `uint256` | The amount of vTokens to redeem for the underlying token. |
 | getId     | `uint256` | ID to get the amount of vTokens to withdraw.              |
 
-#### WithdrawVToken <a href="withdrawvtoken" id="withdrawvtoken"></a>
+#### WithdrawVToken <a href="#withdrawvtoken" id="withdrawvtoken"></a>
 
 ```solidity
 function withdrawVToken(
@@ -414,7 +414,7 @@ Liquidate an accounts borrow position on Venus. The account's liquidity must be 
 | getId           | `uint256` | ID to get amt. Pass 0 if unsure of its value.                                                      |
 | setId           | `uint256` | ID to store the actual amount of token used to pay for liquidation. Pass 0 if unsure of its value. |
 
-## TokenIds <a href="tokenids" id="tokenids"></a>
+## TokenIds <a href="#tokenids" id="tokenids"></a>
 
 | TokenId | Token                                      | vToken                                     |
 | ------- | ------------------------------------------ | ------------------------------------------ |
@@ -428,3 +428,15 @@ Liquidate an accounts borrow position on Venus. The account's liquidity must be 
 | ETH-A   | 0x2170Ed0880ac9A755fd29B2688956BD959F933F8 | 0xf508fCD89b8bd15579dc79A6827cB4686A3592c8 |
 | LTC-A   | 0x4338665CBB7B2485A8855A139b75D5e34AB0DB94 | 0x57A5297F2cB2c0AaC9D554660acd6D385Ab50c6B |
 | XRP-A   | 0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE | 0xB248a295732e0225acd3337607cc01068e3b9c10 |
+| BCH-A   | 0x8ff795a6f4d97e7887c79bea79aba5cc76444adf | 0x5f0388ebc2b94fa8e123f404b79ccf5f40b29176 |
+| DOT-A   | 0x7083609fce4d1d8dc0c979aab8c869ea2c873402 | 0x1610bc33319e9398de5f57b33a5b184c806ad217 |
+| LINK-A  | 0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd | 0x650b940a1033b8a1b1873f78730fcfc73ec11f1f |
+| DAI-A   | 0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3 | 0x334b3ecb4dca3593bccc3c7ebd1a1c1d1780fbf1 |
+| FIL-A   | 0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153 | 0xf91d58b5ae142dacc749f58a49fcbac340cb0343 |
+| BETH-A  | 0x250632378e573c6be1ac2f97fcdf00515d0aa91b | 0x972207a639cc1b374b893cc33fa251b55ceb7c0  |
+| ADA-A   | 0x3ee2200efb3400fabb9aacf31297cbdd1d435d47 | 0x9a0af7fdb2065ce470d72664de73cae409da28ec |
+| DOGE-A  | 0xba2ae424d960c26247dd6c32edc70b295c744c43 | 0xec3422ef92b2fb59e84c8b02ba73f1fe84ed8d71 |
+| MATIC-A | 0xcc42724c6683b7e57334c4e856f4c9965ed682bd | 0x5c9476fcd6a4f9a3654139721c949c2233bbbbc8 |
+| CAKE-A  | 0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82 | 0x86ac3974e2bd0d60825230fa6f355ff11409df5c |
+| AAVE-A  | 0xfb6115445bff7b52feb98650c87f44907e58f802 | 0x26da28954763b92139ed49283625cecaf52c6f94 |
+| TUSD-A  | 0x14016e85a25aeb13065688cafb43044c2ef86784 | 0x08ceb3f4a7ed3500ca0982bcd0fc7816688084c3 |

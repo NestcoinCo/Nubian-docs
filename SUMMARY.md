@@ -25,7 +25,7 @@
   * [🌊 Pooling](faqs/earn/liquidity-provision.md)
   * [🚜 Farming](faqs/earn/farming.md)
 
-## DEVELOPERS <a href="dsa" id="dsa"></a>
+## DEVELOPERS <a href="#dsa" id="dsa"></a>
 
 * [How Nubian Works](dsa/how-nubian-works.md)
 * [Nubian Codebase Overview](dsa/nubian-code-overview.md)
@@ -41,6 +41,7 @@
 * [SDK](dsa/sdk/README.md)
   * [Installation and Setup](dsa/sdk/installation.md)
   * [Cast](dsa/sdk/cast.md)
+  * [AutoFarm](dsa/sdk/autofarm.md)
   * [Utilities](dsa/sdk/utilities.md)
 
 ## Contributors
