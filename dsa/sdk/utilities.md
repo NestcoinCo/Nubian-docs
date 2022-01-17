@@ -39,7 +39,41 @@ nub.eth.transfer({amount, to});
 | amount            | String | The amount of BNB you want to send in wei (smallest BNB unit). |
 | to                | String | The address you want to send the BNB.                          |
 
-###
+### Wrap BNB
+
+BNB can be wrapped to BNB using the SDK.
+
+```
+nub.wbnb.wrap(amount)
+```
+
+The function takes in the amount of BNB you want to wrap.
+
+### Estimate Wrap Gas
+
+```
+nub.wbnb.estimateWrapGas(amount)
+```
+
+The function takes in the amount of BNB you want to use in estimation.
+
+### Unwrap BNB
+
+WBNB can be unwrapped to BNB.
+
+```
+nub.wbnb.unwrap(amount)
+```
+
+The function takes in the amount of WBNB you want to unwrap. You must have this amount of WBNB already approved.
+
+### Estimate Unwrap Gas
+
+```
+nub.wbnb.unwrap(amount)
+```
+
+The function takes in the amount of WBNB you want to use in estimation.
 
 ### Approval
 
