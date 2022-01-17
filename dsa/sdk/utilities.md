@@ -39,6 +39,8 @@ nub.eth.transfer({amount, to});
 | amount            | String | The amount of BNB you want to send in wei (smallest BNB unit). |
 | to                | String | The address you want to send the BNB.                          |
 
+###
+
 ### Approval
 
 You can approve addresses to spend the ERC20 token. It also receives an object as input and returns a promise that resolves to a transaction object.
