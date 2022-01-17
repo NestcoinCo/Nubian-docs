@@ -103,8 +103,7 @@ Removes liquidity from the `tokenA-tokenB` pool on Pancakeswap. Reverts if no to
 
 ```solidity
 function sell(
-    address buyAddr,
-    address sellAddr,
+    address[] _path,
     uint256 sellAmt,
     uint256 unitAmt,
     uint256 getId,
@@ -116,11 +115,10 @@ Used to swap, buy and sell tokens on Pancakeswap.
 
 **Sell Parameters**
 
-| Parameter | Type      | Description                                                                                                                                                                                                                                                         |
-| --------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| buyAddr   | `address` | Address of token to buy. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB.                                                                                                                                                                                   |
-| sellAddr  | `address` | Address of token to sell. Pass 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE for BNB.                                                                                                                                                                                  |
-| sellAmt   | `uint256` | Amount of sellAddr tokens to sell.                                                                                                                                                                                                                                  |
-| unitAmt   | `uint256` | <p>The unit amount of</p><p> <code>buyAmt / sellAmt</code> with slippage. E.g If 1.1 BNB should buy 2.4 NBN tokens, with a slippage of 2% the customer agrees to buy at least 2.352 NBN (2.4-0.02*2.4). Then unitAmt becomes <code>(2.352/1.1) * 10**18</code>.</p> |
-| getId     | `uint256` | Not used. Pass 0.                                                                                                                                                                                                                                                   |
-| setId     | `uint256` | ID to store amount of buyAddr tokens bought.                                                                                                                                                                                                                        |
+| Parameter | Type        | Description                                                                                                                                                                                                                                                         |
+| --------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_path    | `address[]` | The path the swap will take. You can get the swap path using the [SDK utility](../../sdk/utilities.md#pancakeswap-route).                                                                                                                                           |
+| sellAmt   | `uint256`   | Amount of sellAddr tokens to sell.                                                                                                                                                                                                                                  |
+| unitAmt   | `uint256`   | <p>The unit amount of</p><p> <code>buyAmt / sellAmt</code> with slippage. E.g If 1.1 BNB should buy 2.4 NBN tokens, with a slippage of 2% the customer agrees to buy at least 2.352 NBN (2.4-0.02*2.4). Then unitAmt becomes <code>(2.352/1.1) * 10**18</code>.</p> |
+| getId     | `uint256`   | Not used. Pass 0.                                                                                                                                                                                                                                                   |
+| setId     | `uint256`   | ID to store amount of buyAddr tokens bought.                                                                                                                                                                                                                        |

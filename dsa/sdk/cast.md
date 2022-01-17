@@ -30,7 +30,7 @@ Add **spells** that you want to execute. Think of any action, and by just adding
 Here are a few important things to note about using the SDK:
 
 1. The Wizard acts as a middleman between the EOA and the protocols so it is required that the Wizard has the funds to be used in casting the spells else the transaction will fail. **Deposit spell(s)** that send the funds for all the spells should start the spells. The wizard contract should already have the approval to spend the EOAs funds before the Deposit spell is cast.
-2. **Withdrawal spell(s)** should be the last spell to remove all the funds received by the wizard in the transaction to prevent the loss of funds. It is recommended to always use the max value of uint256 type in Solidity to remove the complete balance of the Wizard. E.g since Pancakeswap sees the Wizard contract as the caller of the transaction, it sends the swapped funds to it. A withdrawal spell on the Deposit connector should remove these funds.
+2. **Withdrawal spell(s)** should always be called to remove all the funds received by the wizard in the transaction to prevent the loss of funds. It is recommended to always use the max value of uint256 type in Solidity to remove the complete balance of the Wizard. E.g since Pancakeswap sees the Wizard contract as the caller of the transaction, it sends the swapped funds to it. A withdrawal spell on the Deposit connector should remove these funds.
 3. Some Protocols like Autofarm use **`msg.sender`** to keep a record of account deposits. If the Wizard contract is used it would be recorded as the depositor instead of the original account owner. For protocols like this, the EOA is required to interact directly with these protocols. The SDK provides functions that cover this.
 {% endhint %}
 
