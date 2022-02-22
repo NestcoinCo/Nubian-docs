@@ -12,7 +12,7 @@ Let's begin our short journey to financial freedom. Each stage has a link to a p
 
 1.  **Choose a Wallet**
 
-    The first thing you'd need is a wallet. In the same way, you'd pick a bank to patronise, you have to pick a wallet to use in holding your cryptocurrency and interacting with Nubian. Check our [wallets](wallets.md) guide to know the right wallet you need to get started.&#x20;
+    The first thing you'd need is a wallet. In the same way, you'd pick a bank to patronise, you have to pick a wallet to use in holding your cryptocurrency and interacting with Nubian. Check our [wallets](wallets.md) guide to know the right wallet you need to get started.
 2.  **Fund your wallet**
 
     You need to have BNB in your wallet to start interacting with the Nubian dapp. Let's have a look at the different options you can use to [fund your wallet](fund-your-wallet.md) before we start making use of the Nubian decentralized application (dapp).
@@ -21,11 +21,11 @@ Let's begin our short journey to financial freedom. Each stage has a link to a p
     After funding your wallet, you are ready to start using Nubian. Navigate to Nubian.finance on your desktop browser if you are using a wallet extension like Metamask or on your dapp browser.
 4.  **Connect your Wallet**
 
-    First thing you need to do is connect your wallet to see the assets you have and what you can use them to do on the Nubian.&#x20;
+    First thing you need to do is connect your wallet to see the assets you have and what you can use them to do on the Nubian.
 5.  **Explore Nubian**
 
-    Great job :clap: if you were able to start the journey and get to this point, you can now start using Nubian by [exchanging ](../faqs/swap.md)your tokens or earn yield by [pooling](start-earning/pooling.md), [lending](start-earning/lend.md) and [farming](start-earning/farm.md).
+    Great job :clap: if you were able to start the journey and get to this point, you can now start using Nubian by [exchanging ](broken-reference)your tokens or earn yield by [pooling](start-earning/pooling.md), [lending](start-earning/lend.md) and [farming](start-earning/farm.md).
 
 We've come to the end of our short journey if you read and took action in the previous sections your journey to financial freedom has been reduce
 
-****
+***

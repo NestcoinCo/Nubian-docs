@@ -15,38 +15,3 @@
   * [Pooling](user-guide/start-earning/pooling.md)
   * [Lend](user-guide/start-earning/lend.md)
   * [Farm](user-guide/start-earning/farm.md)
-
-## FAQs
-
-* [General](faqs/general-faq.md)
-* [🔄 Swap](faqs/swap.md)
-* [🤑 Earn](faqs/earn/README.md)
-  * [💸 Lend](faqs/earn/lend.md)
-  * [🌊 Pooling](faqs/earn/liquidity-provision.md)
-  * [🚜 Farming](faqs/earn/farming.md)
-
-## DEVELOPERS <a href="#dsa" id="dsa"></a>
-
-* [How Nubian Works](dsa/how-nubian-works.md)
-* [Nubian Codebase Overview](dsa/nubian-code-overview.md)
-* [🧙♂ Wizard](dsa/wizard.md)
-* [Connectors](dsa/connectors/README.md)
-  * [How to add a connector](dsa/connectors/how-to-add-a-connector.md)
-  * [Connectors Registry](dsa/connectors/connectors-registry.md)
-  * [Available Connectors](dsa/connectors/available-connectors/README.md)
-    * [Basic](dsa/connectors/available-connectors/basic.md)
-    * [Nubian Staking](dsa/connectors/available-connectors/nubian-staking.md)
-    * [Pancakeswap](dsa/connectors/available-connectors/pancakeswap.md)
-    * [Venus](dsa/connectors/available-connectors/venus.md)
-* [SDK](dsa/sdk/README.md)
-  * [Installation and Setup](dsa/sdk/installation.md)
-  * [Cast](dsa/sdk/cast.md)
-  * [AutoFarm](dsa/sdk/autofarm.md)
-  * [Utilities](dsa/sdk/utilities.md)
-
-## Contributors
-
-* [Developers](contributors/developers/README.md)
-  * [Frontend](contributors/developers/frontend.md)
-  * [Connectors](contributors/developers/connectors.md)
-* [Content/Technical Writers](contributors/writers.md)

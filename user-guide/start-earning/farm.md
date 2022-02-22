@@ -8,8 +8,6 @@ Follow the following steps to get started farming on Nubian:
 
 ![Nubian earn products](<../../.gitbook/assets/iPhone 13 mini - 12.svg>)
 
-
-
 [Connect your wallet](../connect-to-nubian.md) and select the earn button at the bottom of your dashboard. You are immediately navigated to the different earn products provided by Nubian. Select Farm from the product list.
 
 2\. **Select a farming pair.**
@@ -22,7 +20,7 @@ On the farming screen, you will see a list of pairs you can farm they arranged i
 
 ![Farming Input](<../../.gitbook/assets/iPhone 13 mini - 68.png>)
 
-After selecting a pair, you have to select the number of tokens you want to farm you can also enter it in dollars on the next screen. You will also see the number of tokens you own, the [APR](../../faqs/general-faq.md#what-is-apr) and the amount you can expect to earn in a year if you leave your tokens farming for a year. 
+After selecting a pair, you have to select the number of tokens you want to farm you can also enter it in dollars on the next screen. You will also see the number of tokens you own, the [APR](broken-reference) and the amount you can expect to earn in a year if you leave your tokens farming for a year.
 
 ![Insufficient Farm assets](<../../.gitbook/assets/iPhone 13 mini - 65.png>)
 

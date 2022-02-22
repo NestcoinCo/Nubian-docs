@@ -16,7 +16,7 @@ Swaps are one of the most basic features of DeFi. You can swap (sell your token 
 
 ## Earn
 
-The DeFi ecosystem is well known for its high-interest rates and subsequent yields. Nubian offers all these products to users without them having to go from one protocol to another to access them.&#x20;
+The DeFi ecosystem is well known for its high-interest rates and subsequent yields. Nubian offers all these products to users without them having to go from one protocol to another to access them.
 
 ### 💸 Lend
 
@@ -28,4 +28,4 @@ Earn interest in swap fees by providing liquidity to any of the trading pairs on
 
 ### 🚜 Farm
 
-Yield farming allows you to earn even more interest after [providing liquidity](user-guide/start-earning/pooling.md) to a trading pair on any dex. When you provide liquidity, you are given pool ([Liquidity Provider](faqs/earn/liquidity-provision.md#what-are-lp-tokens)) tokens to track the amount of liquidity you provided. These LP tokens can be used to earn more rewards by staking them in a farm (a pool for staking LP tokens to earn rewards) to earn even more interest which is separate from the amount you earn in trading fees for providing liquidity.
+Yield farming allows you to earn even more interest after [providing liquidity](user-guide/start-earning/pooling.md) to a trading pair on any dex. When you provide liquidity, you are given pool ([Liquidity Provider](broken-reference)) tokens to track the amount of liquidity you provided. These LP tokens can be used to earn more rewards by staking them in a farm (a pool for staking LP tokens to earn rewards) to earn even more interest which is separate from the amount you earn in trading fees for providing liquidity.
