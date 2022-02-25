@@ -1,41 +1,42 @@
 ---
-description: Make deposits and withdrawals directly from the Nubian app.
+description: We tried to answer some questions we think you might ask 😉.
 ---
 
-# Deposit and Withdraw
+# ❓ FAQs
 
-Make deposits and withdrawals directly from the Nubian decentralized application (dapp) without having to go back to your wallet. The Nubian dapp contains a dashboard, which is used as the central point of navigation around the complete Nubian set of products. Anytime you connect your wallet, you see this dashboard.
+### What are BEP20 tokens?
 
-![Nubian dashboard](<../.gitbook/assets/Dashboard with assets.png>)
+BEP20 tokens are tokens that follow the standard for issuing fungible tokens on the BNB Smart Chain. This standard says that these tokens must have certain properties and since they conform to these requirements they are called BEP20 tokens.&#x20;
 
-The dashboard contains 3 main parts, bottom navigation, assets & transactions tabs and the portfolio section which contains the total balance and portfolio buttons for changing a user's portfolio.&#x20;
-
-Let's take a look at two common portfolio buttons:
-
-### Deposit
-
-You can make deposits directly into the wallet currently connected to the Nubian app. To make a deposit you just have to select the deposit button on your Nubian dashboard. You are shown the screen below. The address of your wallet currently connected to the app you can copy and share to receive funds or just let the sender scan your QR code.
-
-{% hint style="warning" %}
-Only send BEP20 tokens to this address to avoid losing tokens.
+{% hint style="info" %}
+**BNB** is not a BEP20 token since it does not follow the standard, but it has  BEP20 equivalent called **Wrapped BNB (WBNB)** which follows the standard.
 {% endhint %}
 
-![Address and QR code](<../.gitbook/assets/Deposit Page for External Wallet.svg>)
+Nubian makes use of BNB and BEP20 tokens. BEP20 token examples are USDT, WBNB, DAI etc.
 
-### Withdraw
+### **Why do I need BNB to complete transactions?**
 
-Make withdrawals from the Nubian app directly to an external wallet. To get to the Withdraw screen, select the withdraw button on your dashboard.
+BNB is the native token of the BNB Smart Chain, the blockchain that the Nubian app exists. The BNB Smart Chain requires that every single transaction fee be paid in BNB. This means that if you are doing a transaction such as saving, sending or swapping DAI you must have BNB to cover transaction fees.
 
-![Nubian Withdraw screen](<../.gitbook/assets/iPhone 13 mini - 54.png>)
+### **Why do I need to approve tokens?**
 
-When you select the withdraw button, you will see the list of tokens you have a balance. Select the token you want to withdraw.
+Token approvals allow gives the Nubian app access to your tokens. Without these approvals, Nubian won't be able to help you save or swap your tokens.
 
-![Confirm Withdrawal](<../.gitbook/assets/iPhone 13 mini - 55.svg>)
+### Is there a minimum to how much I can save on Nubian?
 
-After selecting a withdrawal token, you will need to enter an address and the amount you want to withdraw. The address must be a BEP20 address i.e an address that can receive BEP20 tokens. You can select the maximum amount of tokens you have using the max button and switch between the dollar value and the number of tokens you want to withdraw using the switch button.&#x20;
+No there is no minimum amount to how much you can save on Nubian. You can save a few cents or kobo and even far less.
 
-{% hint style="danger" %}
-Always make sure the addresses you enter are correct. Sending tokens to the wrong address will make you lose those tokens.
-{% endhint %}
+### Can I withdraw my savings anytime?
 
-Select the Confirm Withdrawal button when you are done. You will be directed to your wallet to confirm the withdrawal.
+Yes, you can withdraw your savings anytime you want.
+
+### What is APY?
+
+
+
+### What is APR?
+
+
+
+
+
