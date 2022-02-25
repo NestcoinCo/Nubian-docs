@@ -72,26 +72,10 @@ Who doesn't want to save more to earn more interest?&#x20;
 
 To save more, navigate to the savings page, you will see an overview of all the tokens you have saved. If you have already saved the token you want to save more of you'll see it there.
 
-&#x20;![](../.gitbook/assets/add\_savings.jpg)
+&#x20;                                       ![](../.gitbook/assets/add\_savings.jpg)
 
-_Overview_
+&#x20;                                                            Add Token
 
 When you select it, you will be taken to a page showing you details about that token. Select the "Add token" button, it will take you to a page with a list of available tokens and the token you want to deposit already selected. Just select the "Continue" button.
 
-
-
 Enter the number of tokens you want to add and select the "Confirm" button. You will be redirected to your wallet to approve the transaction. When it completes successfully, you have successfully saved more :tada:.
-
-_Success message_
-
-
-
-
-
-
-
-
-
-
-
-\

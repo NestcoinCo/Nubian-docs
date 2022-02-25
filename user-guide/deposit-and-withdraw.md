@@ -32,11 +32,8 @@ Yes, you can withdraw your savings anytime you want.
 
 ### What is APY?
 
-
+Annual Percentage Yield (APY) is the amount you earn over a year when you save, it is calculated by adding (compounding) your initial deposit with your earnings and using it in calculating further earnings. E.g If Alice saves $50 at an APY of 20% compounded monthly it means that every month she earns a certain interest and it is used in calculating her interest for the next month. This is repeated until the end of the year amounting to an extra $10 (20% of $50) in earnings at the end of the year.
 
 ### What is APR?
 
-
-
-
-
+Annual Percentage Rate (APR) is the additional amount you earn over a year when you save, it is calculated using just your initial deposit. E.g If Alice saves $50 at an APR of 10%, it means at the end of the year her total interest earned is $5 (10% of $50). It uses simple interest calculations and unlike APY there is no compounding.
