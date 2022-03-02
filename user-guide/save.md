@@ -1,5 +1,5 @@
 ---
-description: Save your money with high interest rates.
+description: Save your crypto with high interest rates.
 ---
 
 # 🐷 Save
@@ -58,7 +58,7 @@ On the savings overview page, select any savings you have done. This takes you t
 
 The withdrawal page requires you to enter the amount of the token you want to withdraw and select the "Confirm Withdrawal" button. If you haven't approved before, you will be asked to approve the token, this allows Nubian to complete the transaction for you. You will be redirected to your wallet to accept the approval and/or withdrawal transaction(s). When the transaction completes successfully, your formerly saved tokens will now be in your wallet.
 
-&#x20;                                               ![](../.gitbook/assets/withdraw\_saved.jpg)
+&#x20;                                               ![](<../.gitbook/assets/photo\_2022-03-02 09.26.31 (1).jpeg>)
 
 &#x20;                                                             Enter Withdraw Amount
 
