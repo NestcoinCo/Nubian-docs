@@ -12,5 +12,3 @@ Nubian Finance allows you to save your crypto with interest rates typically high
 
 Nubian offers you the freedom to save any amount you want and withdraw it anytime you want, you are not asked to do Know Your Customer (KYC) and provide any personal documents or stand in a long queue before you can deposit your funds.&#x20;
 
-To get started using the Nubian application, all you need is a smartphone, just navigate to [app.nubian.fi ](https://app.gitbook.com/o/-MjEXC7c-JaMUV\_saKA-/s/-MjH29tAXWR37NNVM7u5/)and get started saving.
-
